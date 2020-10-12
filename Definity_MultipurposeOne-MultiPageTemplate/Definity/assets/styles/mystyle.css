@@ -1,0 +1,64 @@
+.nomargin {
+    margin: 0;
+    }
+
+.disblock {
+    display: block;
+}
+
+.dislinblock {
+    display: inline-block;
+}
+
+.dislin {
+    display: inline;
+}
+
+.cornback {
+    background: #ececec50;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+  
+}
+
+@media (min-width: 100px) {
+.grid-s-item {
+  font-size: 10px;
+  text-align: left;
+}
+
+.grid-m-item {
+  font-size: 17px;
+  text-align: left;
+}
+
+.grid-l-item {
+  font-size: 30px;
+  text-align: left;
+}
+
+.grid-m-lc-item {
+  font-size: 17px;
+  text-align: left center;
+  margin-top: 20px;
+}
+}
+
+.row-s {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.Marcin {
+  height: 440;
+  width: 360;
+}
+
+.Johannes {
+  height: 360;
+  width: 440;
+  background: url(../images/Marcin.jpg) 0 0;
+}
