@@ -69,3 +69,10 @@
   background-position: 50%;
   background-attachment: fixed;
 }
+
+.sm-city-bg {
+  background-image: url("../../assets/images/architecture-1868667_1920.png");
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
