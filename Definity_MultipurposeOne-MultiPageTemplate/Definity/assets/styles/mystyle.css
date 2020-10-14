@@ -62,3 +62,10 @@
   width: 440;
   background: url(../images/Marcin.jpg) 0 0;
 }
+
+.sm-shatterd-bg {
+  background-image: url("../../assets/images/shattered.gif");
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}

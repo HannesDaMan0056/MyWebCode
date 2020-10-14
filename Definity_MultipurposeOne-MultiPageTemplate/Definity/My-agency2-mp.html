@@ -62,28 +62,18 @@
               <a class="navbar-brand" href="#home"><img src="assets\images\ADROIT.png" alt="Adroit"></a>
             </div><!-- / .navbar-header -->
 
+
             <!-- Navbar Links -->
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 
+                <!--<li><a href="#home">Home</a></li>       this one loses it´s hover over effect -->
+                <li><a href="#">Home</a></li>
+                <li><a href="pages/Candidate.html">Candidate</a></li>
+                <li><a href="pages/Clients.html">Clients</a></li>
+                <li><a href="pages/Consultancies.html">Consultancies</a></li>
+                <li><a href="pages/SeniorPartner.html">Senior Partner</a></li>
 
-                <!-- Our Pages -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">home <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    
-                        <li class="dropdown-header">Our Pages</li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="pages/Candidate.html">Candidate</a></li>
-                        <li><a href="pages/Clients.html">Clients</a></li>
-                        <li><a href="pages/Consultancies.html">Consultancies</a></li>
-                        <li><a href="pages/SeniorPartner.html">Senior Partner</a></li>
-                     
-
-                      
-                    <!-- / .row -->
-                  </ul><!-- / .dropdown-menu -->
-                </li><!-- / Pages -->
 
                 <!-- Elements -->
                 <li class="dropdown" style="display: none;">
@@ -126,8 +116,6 @@
                     </div><!-- / .row -->
                   </ul><!-- / .dropdown-menu -->
                 </li><!-- / Elements -->
-
-                
  
                 <!-- Portfolio -->
                 <li class="dropdown mega-fw" style="display: none;">
@@ -246,8 +234,9 @@
                 </li><!-- / Portfolio -->
               </ul>
 
+
               <!-- Navbar Links Right -->
-              <ul class="nav navbar-nav navbar-right" >
+              <ul class="nav navbar-nav navbar-right" style="display: none;">
 
                 <!-- Cart -->
                 <li class="dropdown">
@@ -342,7 +331,7 @@
 
 
 
-        <!-- ========== About - Section ========== -->
+        <!-- ========== Our Mission - Section ========== -->
 
         <section id="about" class="container">
           <div class="row section">
@@ -385,9 +374,177 @@
 
 
 
-        <!-- ========== Number Counters - Dark bg ========== -->
+        <!-- ========== CTA - Contact Link ========== -->
 
-        <div class="number-counters-dark-bg">
+        <div class="cta-link cta-dark sm-shatterd-bg" >
+          <div class="bg-overlay">
+            
+            <div class="cta-wrapper">
+              <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">See what we can do for you</h3>
+              <a href="#contact" class="btn btn-light btn-large wow fadeIn" data-wow-delay=".3s" data-wow-duration="1s">Get in touch</a>
+            </div>
+
+          </div>
+        </div><!-- / .dark-bg .cta-link -->
+
+
+
+        <!-- ========== Who Are You? - 4 Columns ========== -->
+
+        <div class="gray-bg">
+          <section class="container section team-4col" style="padding: 100px 0px 200px 0px;">
+            <div class="row">
+              
+              <header class="sec-heading" style="margin: 0px 0px 100px 0px;">
+                <h2>Who are you?</h2>
+                <span class="subheading" style="margin: 5px 0px 0px 0px;">Where in the picture do you fitt
+                </span>
+              </header>
+
+              <!-- Candidate -->
+              <div class="col-lg-3 col-md-6 mb-sm-50">
+                <div class="t-item">
+
+                  <!-- Image -->
+                  <div class="t-image" style="max-height: 150; margin-bottom: 5%;">
+                    <!--<img src="http://placehold.it/360x440" alt="Team Member" class="img-responsive">-->
+                    <span class="et-traget" style="font-size: 100px; position: relative; left:29%; top: 90px;"></span>
+                    <h2 style="position: relative; left:19%; top: 90px; width: 200px;">Candidate</h2>
+                    <div class="t-description" style="padding: 0px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 30px 0px 30px;">
+                        <p style="margin: 0px;">Are you a consultant and are looking to find job? Then come and you us as a new Candidate! We have developed a tool to support you in your process working as a consultant. Our vision is to create a tool that will meet all your needs to present yourself, your experiences and skillsset</p>
+                        <a href="pages/Candidate.html">Learn more <span class="et-traget"></span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Info -->
+                  <div class="t-info" style="display:none">
+                    <h4 class="t-name">Philip Lee</h4>
+                    <span class="t-role">CEO &amp; Founder</span>
+                    <ul class="social-links">
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+
+                </div><!-- / .t-item -->
+              </div><!-- / .col-lg-3 -->
+
+
+              <!-- Client -->
+              <div class="col-lg-3 col-md-6 mb-sm-50">
+                <div class="t-item">
+
+                  <!-- Image -->
+                  <div class="t-image" style="max-height: 150;">
+                    <span class="et-briefcase" style="font-size: 100px; position: relative; left:28%; top: 90px;"></span>
+                    <h2 style="position: relative; left:32%; top: 90px; width: 200px;">Client</h2>
+                    <div class="t-description">
+                      <div class="content-wrapper" style="padding: 50px 0px 50px 0px;">
+                        <p>Are you a company that is looking for consultants to hire? Then learn more about what we can do for you!</p>
+                        <a href="pages/Candidate.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Info -->
+                  <div class="t-info" style="display: none;">
+                    <h4 class="t-name">Philip Lee</h4>
+                    <span class="t-role">CEO &amp; Founder</span>
+                    <ul class="social-links">
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+
+                </div><!-- / .t-item -->
+              </div><!-- / .col-lg-3 -->
+
+
+              <!-- Senior Partner -->
+              <div class="col-lg-3 col-md-6 mb-sm-50">
+                <div class="t-item">
+
+                  <!-- Image -->
+                  <div class="t-image" style="max-height: 150;">
+                    <!--<img src="http://placehold.it/360x440" alt="Team Member" class="img-responsive">-->
+                    <span class="et-puzzle" style="font-size: 100px; position: relative; left:30%; top: 90px;"></span>
+                    <h2 style="position: relative; left: 4%; top: 90px; width: 300px;">Senior Partner</h2>
+                    <div class="t-description">
+                      <div class="content-wrapper">
+                        <p>If you are an industry or business expert with a great network and all you need is the team of skilled resources to help you in execution, let's talk. Become a senior partner and build your business using our network and platform tools</p>
+                        <a href="pages/Candidate.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Info -->
+                  <div class="t-info" style="display: none;">
+                    <h4 class="t-name">Philip Lee</h4>
+                    <span class="t-role">CEO &amp; Founder</span>
+                    <ul class="social-links">
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+
+                </div><!-- / .t-item -->
+              </div><!-- / .col-lg-3 -->
+
+
+              <!-- Consultancies -->
+              <div class="col-lg-3 col-md-6 mb-sm-50">
+                <div class="t-item">
+
+                  <!-- Image -->
+                  <div class="t-image" style="max-height: 150;">
+                    <!--<img src="http://placehold.it/360x440" alt="Team Member" class="img-responsive">-->
+                    <span class="et-gears" style="font-size: 100px; position: relative; left:25%; top: 90px;"></span>
+                    <h2 style="position: relative; left:7%; top: 90px; width: 200px;">Consultancies</h2>
+                    <div class="t-description">
+                      <div class="content-wrapper">
+                        <p>Are you a consultancies looking to expand your service? Our platform will support your business process to provide relevant resources and solve problems for your clients</p>
+                        <a href="pages/Candidate.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Info -->
+                  <div class="t-info" style="display: none;">
+                    <h4 class="t-name">Philip Lee</h4>
+                    <span class="t-role">CEO &amp; Founder</span>
+                    <ul class="social-links">
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                  </div>
+
+                </div><!-- / .t-item -->
+              </div><!-- / .col-lg-3 -->
+
+
+            </div><!-- / .row -->
+          </section><!-- / .contianer -->
+        </div><!-- / .gray-bg -->
+
+        
+
+        <!-- ========== Blank (display:none;) ======================================================================= --> 
+        <section style="display: none;">
+
+
+          <!-- ========== Number Counters - Dark bg ========== -->
+
+        <div class="number-counters-dark-bg" style="display: none;">
           <div class="container">
             <div id="counters-min" class="row count-wrapper">
               
@@ -423,7 +580,7 @@
 
         <!-- ========== Services ========== -->
 
-        <div class="gray-bg">
+        <div class="gray-bg" style="display: none;">
           <section id="services" class="container ft-cards">
             <div class="row section">
 
@@ -479,7 +636,7 @@
 
         <!-- ========== Circle Counters Minimal ========== -->
 
-        <div id="skillsCirclesMin" class="circles-counters-dark-bg">
+        <div id="skillsCirclesMin" class="circles-counters-dark-bg" style="display: none;">
           <div class="container">
             <div id="counters-min" class="row count-wrapper">
               
@@ -515,7 +672,7 @@
 
         <!-- ========== Feature - Steps Numbers ========== -->
 
-        <section class="container ft-steps-numbers">
+        <section class="container ft-steps-numbers" style="display: none;">
             <div class="row section">
 
               <header class="sec-heading ws-s">
@@ -559,7 +716,7 @@
 
         <!-- ========== Featured Projects ========== -->
 
-        <div class="container-fluid ft-hover-item">
+        <div class="container-fluid ft-hover-item" style="display: none;">
           <div class="row">
             
             <!-- Item 1 -->
@@ -595,7 +752,7 @@
 
         <!-- ========== Portfolio Full Width - 4 Columns ========== -->
 
-        <section class="container-fluid portfolio-layout portfolio-columns-fw">
+        <section class="container-fluid portfolio-layout portfolio-columns-fw" style="display: none;">
           <div class="row">
             <header class="sec-heading">
               <h2>Some of our project</h2>
@@ -734,24 +891,9 @@
 
 
 
-        <!-- ========== CTA - Contact Link ========== -->
-
-        <div class="cta-link cta-dark">
-          <div class="bg-overlay">
-            
-            <div class="cta-wrapper">
-              <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">See what we can do for you</h3>
-              <a href="#contact" class="btn btn-light btn-large wow fadeIn" data-wow-delay=".3s" data-wow-duration="1s">Get in touch</a>
-            </div>
-
-          </div>
-        </div><!-- / .dark-bg .cta-link -->
-
-
-
         <!-- ========== Testimonials ========== -->
         
-        <div id="testimonials" class="gray-bg">
+        <div id="testimonials" class="gray-bg" style="display: none;">
           <section class="container testimonials-3col">
 
             <div class="row section">
@@ -811,7 +953,7 @@
 
         <!-- ========== Clients List - Dark ========== -->
 
-        <div class="dark-bg">
+        <div class="dark-bg" style="display: none;">
           <div class="container">
             <div class="row">
               <div class="ws-s"></div>
@@ -831,7 +973,7 @@
 
         <!-- ========== Blog Preview ========== -->
 
-        <div class="gray-bg">
+        <div class="gray-bg" style="display: none;">
           <section id="blog" class="section container blog-columns blog-preview">
             <div class="row">
               
@@ -953,15 +1095,16 @@
           </section><!-- / .container -->
         </div><!-- / .gray-bg -->
 
+        </section>
 
 
         <!-- ========== CTA - Newsletter Signup ========== -->
 
-        <div class="cta-newsletter cta-dark">
+        <div class="cta-newsletter cta-dark sm-shatterd-bg" >
           <div class="bg-overlay">
-            <div class="cta-wrapper">
+            <div class="cta-wrapper" style="padding: 50px 0px;">
 
-              <h3 class="cta-lead h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Join our newsletter</h3>
+              <h1 class="cta-lead h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s" style="margin: 0px 0px 50px; color: #ECECEC;">Join our newsletter</h1>
 
               <form class="mc-ajax mc-form subscribe-form" _lpchecked="1">
 
