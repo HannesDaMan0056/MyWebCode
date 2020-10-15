@@ -76,3 +76,14 @@
   background-position: 50%;
   background-attachment: fixed;
 }
+
+.navbar-blue {
+  border-bottom: none;
+  background: #012136;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+.sm-city-bg .subheading {
+  color: rgb(255, 255, 255);
+}
