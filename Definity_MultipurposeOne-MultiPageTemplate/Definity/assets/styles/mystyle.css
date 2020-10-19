@@ -87,3 +87,35 @@
 .sm-city-bg .subheading {
   color: rgb(255, 255, 255);
 }
+
+.sm-grey-city-bg {
+  background-image: url(../../assets/images/architecture-1868667_1920.png) repeat;
+  width: 100%;
+  background: rgb(0 0 0 / 24%);
+}
+
+/* ---- 17.1 CTA - City - Link ---- */
+.cta-city-link {
+  background-image: url("../../assets/images/architecture-1868667_1920.png");
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+.cta-city-link .bg-overlay {
+  width: 100%;
+  background: rgb(0 0 0 / 24%);
+}
+
+.cta-city-link .cta-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.cta-city-link .cta-wrapper h3, .cta-city-link .cta-wrapper .page-title .subheading, .page-title .cta-city-link .cta-wrapper .subheading {
+  margin-top: 0;
+  margin-bottom: 50px;
+  letter-spacing: 8px;
+  color: #ececec;
+}
