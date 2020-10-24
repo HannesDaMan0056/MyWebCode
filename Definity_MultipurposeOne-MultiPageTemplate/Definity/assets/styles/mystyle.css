@@ -88,12 +88,6 @@
   color: rgb(255, 255, 255);
 }
 
-.sm-grey-city-bg {
-  background-image: url(../../assets/images/architecture-1868667_1920.png) repeat;
-  width: 100%;
-  background: rgb(0 0 0 / 24%);
-}
-
 /* ---- 17.1 CTA - City - Link ---- */
 .cta-city-link {
   background-image: url("../../assets/images/architecture-1868667_1920.png");
@@ -104,7 +98,7 @@
 
 .cta-city-link .bg-overlay {
   width: 100%;
-  background: rgb(0 0 0 / 24%);
+  background: rgb(0 0 0 / 0%);
 }
 
 .cta-city-link .cta-wrapper {
@@ -113,9 +107,50 @@
   text-align: center;
 }
 
-.cta-city-link .cta-wrapper h3, .cta-city-link .cta-wrapper .page-title .subheading, .page-title .cta-city-link .cta-wrapper .subheading {
+.cta-city-link .cta-wrapper .page-title .subheading, .page-title .cta-city-link .cta-wrapper .subheading {
   margin-top: 0;
   margin-bottom: 50px;
   letter-spacing: 8px;
   color: #ececec;
 }
+
+.cta-city-link .cta-wrapper h3 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.page-title.sm-city-bg h1 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+/* .team-4col .t-item .t-et == Who are you section */
+.team-4col .t-item .t-et, .team-4col .t-item h2 {
+  color: #111;
+  position: relative;
+  top: 90px;
+}
+
+.team-4col .t-item h2 {
+  margin: none;
+}
+
+.team-4col .t-item.t-card-color {
+  background-color: #f8f8f8;
+  border: none;
+}
+
+.t-resonsive-block {
+  display: block;
+  width: 360px;
+  height: 440px;
+}
+

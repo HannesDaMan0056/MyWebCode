@@ -1969,7 +1969,7 @@ fieldset[disabled] .form-control:hover {
 
 .page-title .subheading {
   display: block;
-  margin: 20px 0 0 0;
+  margin: 15px 0 0 0;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   color: #cecdcd;
@@ -6320,7 +6320,7 @@ fieldset[disabled] .form-control:hover {
   text-align: center;
 }
 
-.cta-link .cta-wrapper h3, .cta-link .cta-wrapper .page-title .subheading, .page-title .cta-link .cta-wrapper .subheading,  {
+.cta-link .cta-wrapper h3, .cta-link .cta-wrapper .page-title .subheading, .page-title .cta-link .cta-wrapper .subheading {
   margin-top: 0;
   margin-bottom: 50px;
   letter-spacing: 8px;
@@ -9132,7 +9132,7 @@ form .input-error-2:focus {
 }
 
 .portfolio-item.hover-bottom figure figcaption a:focus {
-  otline: none;
+  outline: none;
 }
 
 .portfolio-item.hover-bottom figure figcaption .hover-heading {
