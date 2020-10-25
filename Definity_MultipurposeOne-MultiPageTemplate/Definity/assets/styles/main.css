@@ -3609,7 +3609,7 @@ fieldset[disabled] .form-control:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #888;
+  background: #999;
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -3635,7 +3635,7 @@ fieldset[disabled] .form-control:hover {
 
 .ft-boxed-hover ul li .hover-content p {
   margin: 0;
-  color: #999;
+  color: #ececec;
 }
 
 .ft-boxed-hover ul li .hover-content a {
