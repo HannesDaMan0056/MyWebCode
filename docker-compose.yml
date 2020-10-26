@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  breins_web_landing:
+    #image: 'docker.proitdesign.com/candybase/candybase-homepage:${BREINS_VERSION}'
+    container_name: candybase-homepage
+    build:
+      context: Definity_MultipurposeOne-MultiPageTemplate/Definity
+    ports:
+    - 80:80
