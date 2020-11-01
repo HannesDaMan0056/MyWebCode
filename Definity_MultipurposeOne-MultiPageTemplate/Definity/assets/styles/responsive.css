@@ -219,7 +219,7 @@
   .ft-cards-2 .ft-card-item img {
     display: block;
     float: none;
-    max-width: none;
+    max-width: 350px;
   }
   .ft-cards-2 .ft-card-item .ft-content {
     display: block;
@@ -447,7 +447,7 @@
 }
 
 /* ---- Team Layouts ---- */
-@media (max-width: 1260px) {
+@media (max-width: 1199px) {
   .team-3col .t-item,
   .team-4col .t-item {
     width: 360px;
@@ -587,7 +587,7 @@
 }
 
 /* ---- Portfolio ---- */
-@media (max-width: 1050px) {
+@media (max-width: 992px) {
   .portfolio-1col-fw .portfolio-item,
   .portfolio-1col-boxed .portfolio-item {
     height: auto;
