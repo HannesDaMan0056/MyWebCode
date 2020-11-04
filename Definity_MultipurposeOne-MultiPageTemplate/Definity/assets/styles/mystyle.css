@@ -72,12 +72,42 @@
   background-position: 50%;
   background-attachment: fixed;
 }
-
-.sm-city-bg {
-  background-image: url("../../assets/images/architecture-1868667_1920.png");
+/*linear-gradient(30deg,#24252d00 40%,#02040586 60%)
+ linear-gradient(30deg,#01041b88 0%,#01041b88 100%),
+radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
+.sm-poly1-bg {
+  background-image: linear-gradient(30deg,#24252d00 40%,#02040586 60%), url("../../assets/images/AbstractPolygonBackgrounds/JPG/02.jpg");
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+.sm-erickssons-bg {
+  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+  background-attachment: fixed;
+}
+
+.sm-city-bg {
+  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279Inverted.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sm-city-bg .subheading {
+  color: rgb(255, 255, 255);
+}
+
+.page-title.sm-city-bg h1 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
 }
 
 .navbar-blue {
@@ -87,15 +117,11 @@
           transition: background 0.3s;
 }
 
-.sm-city-bg .subheading {
-  color: rgb(255, 255, 255);
-}
-
 /* ---- 17.1 CTA - City - Link ---- */
 .cta-city-link {
-  background-image: url("../../assets/images/architecture-1868667_1920.png");
+  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279Inverted.jpg");
   background-size: cover;
-  background-position: 50%;
+  background-position: left;
   background-attachment: fixed;
 }
 
@@ -120,15 +146,6 @@
 .cta-city-link .cta-wrapper h3 {
   margin-top: 0;
   margin-bottom: 50px;
-  letter-spacing: 5px;
-  color: #ffffff;
-  font-size: 23px;
-  font-weight: 500;
-}
-
-.page-title.sm-city-bg h1 {
-  margin-top: 0;
-  margin-bottom: 0px;
   letter-spacing: 5px;
   color: #ffffff;
   font-size: 23px;
