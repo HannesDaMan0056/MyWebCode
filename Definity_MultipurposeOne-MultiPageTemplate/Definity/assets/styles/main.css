@@ -1258,7 +1258,7 @@ body, .testimonials-3col .t-item blockquote, .testimonials-3col .t-item .wrapper
   font-weight: 300;
   letter-spacing: 0.2px;
   line-height: 1.8em;
-  color: #777;
+  color: #777777;
 }
 
 h1,
@@ -8289,14 +8289,14 @@ form .input-error-2:focus {
 }
 
 .agency2-hero {
-  background-image: url("../../assets/images/shattered.gif");
+  background-image: url("../../assets/images/AbstractPolygonBackgrounds/JPG/01.jpg");
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
 }
 
 .agency2-hero .bg-overlay {
-  background: rgba(38, 38, 51, 0.5);
+  background-color: rgba(38, 38, 51, 0);
 }
 
 .agency2-hero .large-header .demo-canvas {
@@ -8333,20 +8333,21 @@ form .input-error-2:focus {
 .agency2-hero .hero-content-wrapper .hero-content .progress-group .progress-value, .progress-group .agency2-hero .hero-content-wrapper .hero-content .progress-value, .agency2-hero .hero-content-wrapper .hero-content .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .agency2-hero .hero-content-wrapper .hero-content .panel-title, .agency2-hero .hero-content-wrapper .hero-content .footer-social-links ul li, .footer-social-links ul .agency2-hero .hero-content-wrapper .hero-content li, .agency2-hero .hero-content-wrapper .hero-content .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .agency2-hero .hero-content-wrapper .hero-content .show-info-link, .agency2-hero .hero-content-wrapper .hero-content .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address ul li .agency2-hero .hero-content-wrapper .hero-content .adr-heading, .agency2-hero .hero-content-wrapper .hero-content .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .agency2-hero .hero-content-wrapper .hero-content .show-map, .agency2-hero .hero-content-wrapper .hero-content .footer-litle address ul li .adr-group .adr-heading, .footer-litle address ul li .adr-group .agency2-hero .hero-content-wrapper .hero-content .adr-heading, .agency2-hero .hero-content-wrapper .hero-content .ft-cards .ft-item a, .ft-cards .ft-item .agency2-hero .hero-content-wrapper .hero-content a, .agency2-hero .hero-content-wrapper .hero-content .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .agency2-hero .hero-content-wrapper .hero-content .link-btn, .agency2-hero .hero-content-wrapper .hero-content .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover ul li .hover-content .agency2-hero .hero-content-wrapper .hero-content a, .agency2-hero .hero-content-wrapper .hero-content .circles-counters .circle-item .circle-text, .circles-counters .circle-item .agency2-hero .hero-content-wrapper .hero-content .circle-text, .agency2-hero .hero-content-wrapper .hero-content .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .agency2-hero .hero-content-wrapper .hero-content .circle-text, .agency2-hero .hero-content-wrapper .hero-content .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .agency2-hero .hero-content-wrapper .hero-content .count-text, .agency2-hero .hero-content-wrapper .hero-content .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .agency2-hero .hero-content-wrapper .hero-content .count-text, .agency2-hero .hero-content-wrapper .hero-content .project-nav nav .nav-btns li a, .project-nav nav .nav-btns li .agency2-hero .hero-content-wrapper .hero-content a, .agency2-hero .hero-content-wrapper .hero-content .pricing-tables .p-table .desc, .pricing-tables .p-table .agency2-hero .hero-content-wrapper .hero-content .desc, .agency2-hero .hero-content-wrapper .hero-content .blog-post-nav .prev-btn, .blog-post-nav .agency2-hero .hero-content-wrapper .hero-content .prev-btn,
 .agency2-hero .hero-content-wrapper .hero-content .blog-post-nav .next-btn, .blog-post-nav .agency2-hero .hero-content-wrapper .hero-content .next-btn, .agency2-hero .hero-content-wrapper .hero-content .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list li .agency2-hero .hero-content-wrapper .hero-content a, .agency2-hero .hero-content-wrapper .hero-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .agency2-hero .hero-content-wrapper .hero-content span, .agency2-hero .hero-content-wrapper .hero-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .agency2-hero .hero-content-wrapper .hero-content a,
 .agency2-hero .hero-content-wrapper .hero-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .agency2-hero .hero-content-wrapper .hero-content p, .agency2-hero .hero-content-wrapper .hero-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .agency2-hero .hero-content-wrapper .hero-content a, .agency2-hero .hero-content-wrapper .hero-content .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .agency2-hero .hero-content-wrapper .hero-content .cta-btn, .agency2-hero .hero-content-wrapper .hero-content .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .agency2-hero .hero-content-wrapper .hero-content label, .agency2-hero .hero-content-wrapper .hero-content .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .agency2-hero .hero-content-wrapper .hero-content label, .agency2-hero .hero-content-wrapper .hero-content .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list li .agency2-hero .hero-content-wrapper .hero-content a, .agency2-hero .hero-content-wrapper .hero-content .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li .agency2-hero .hero-content-wrapper .hero-content a, .agency2-hero .hero-content-wrapper .hero-content .checkout-table tbody tr td:first-child, .checkout-table tbody tr .agency2-hero .hero-content-wrapper .hero-content td:first-child, .agency2-hero .hero-content-wrapper .hero-content .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .agency2-hero .hero-content-wrapper .hero-content .tpr-name {
-  color: #ececec;
+  color: #ffffff;
 }
 
 .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
   margin-top: 0;
   font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 4em;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 10px;
-  color: #ececec;
+  color: #ffffff;
 }
 
 .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
   letter-spacing: 10px;
+  font-weight: 600;
 }
 
 .agency2-hero .hero-content-wrapper .hero-content .btn, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .btn-text, .agency2-hero .hero-content-wrapper .hero-content .btn-text-light, .agency2-hero .hero-content-wrapper .hero-content .btn-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-light {
