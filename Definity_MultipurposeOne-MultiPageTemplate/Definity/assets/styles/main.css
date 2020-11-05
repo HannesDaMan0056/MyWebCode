@@ -4785,7 +4785,7 @@ fieldset[disabled] .form-control:hover {
 
 .team-3col .t-item:hover .t-image .t-description .content-wrapper, .team-4col .t-item:hover .t-image .t-description .content-wrapper, .freelancer-about .t-item:hover .t-image .t-description .content-wrapper {
   padding-top: 0;
-  border-bottom: 1px solid #ebebec;
+  /*border-bottom: 1px solid #ebebec;*/
   opacity: 1;
 }
 
