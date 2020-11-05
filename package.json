@@ -1,0 +1,14 @@
+{
+  "name": "candybase",
+  "version": "0.0.1",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server -p 8000 -c-1 ./Definity_MultipurposeOne-MultiPageTemplate/Definity -o /My-agency2-mp.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
