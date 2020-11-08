@@ -84,14 +84,14 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 }
 
 .sm-erickssons-bg {
-  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-image: linear-gradient(30deg,#01041b49 0%,#01041b49 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 25%;
   background-attachment: fixed;
 }
 
 .sm-city-bg {
-  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279Inverted.jpg");
+  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -119,7 +119,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 
 /* ---- 17.1 CTA - City - Link ---- */
 .cta-city-link {
-  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279Inverted.jpg");
+  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
   background-position: left;
   background-attachment: fixed;
