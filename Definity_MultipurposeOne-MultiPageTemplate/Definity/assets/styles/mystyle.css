@@ -83,12 +83,23 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
   background-blend-mode: multiply;
 }
 
+
 .sm-erickssons-bg {
   background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 20%;
   background-attachment: fixed;
 }
+
+
+@media (max-width: 1294px) {
+  .sm-erickssons-bg-md {
+    background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+    background-size: cover;
+    background-position: 50% 20%;
+    background-attachment: fixed;
+  }
+  }
 
 .sm-city-bg {
   background-image: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");

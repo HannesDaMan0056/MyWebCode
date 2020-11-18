@@ -8289,10 +8289,11 @@ form .input-error-2:focus {
 }
 
 .agency2-hero {
+  /*
   background-image: url("../../assets/images/AbstractPolygonBackgrounds/JPG/01.jpg");
   background-size: cover;
   background-position: 50%;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 }
 
 .agency2-hero .bg-overlay {
