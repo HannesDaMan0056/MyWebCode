@@ -67,7 +67,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 
-                <li><a href="#home">Home</a></li>     <!--  this one loses it´s hover over effect-->
+                <li><a href="#home">Home</a></li>     <!--  this one loses it´s hover over effect on Canidate and My-Agency2! -->
                 
                 <!-- Who are you? -->
                 <li class="dropdown">
@@ -81,8 +81,8 @@
                         <li role="separator" class="divider"></li>
                         <li><a href="pages/Candidate.html"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
                         <li><a href="pages/Clients.html"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
-                        <li><a href="pages/Consultancies.html"><span class="et-gears" style="margin: 0px 7px 0px 0px;"></span>Consultancies</span></a></li>
-                        <li><a href="pages/SeniorPartner.html"><span class="et-puzzle" style="margin: 0px 7px 0px 0px;"></span> Senior Partner</a></li>
+                        <!-- <li><a href="pages/SeniorPartner.html"><span class="et-puzzle" style="margin: 0px 7px 0px 0px;"></span> Senior Partner</a></li>
+                        <li><a href="pages/Consultancies.html"><span class="et-gears" style="margin: 0px 7px 0px 0px;"></span>Consultancies</span></a></li> -->
                         </div>
 
                     </div><!-- / .row -->
@@ -90,7 +90,7 @@
                 </li><!-- / Who are you? -->
 
                 <!-- More about -->
-                <li class="dropdown">
+                <li class="dropdown" style="display: none;">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">More About<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <div class="row">
@@ -102,7 +102,7 @@
                         <li><a href="pages/CandidateModule.html">Candybase</a></li>
                         <li><a href="pages/AgentModule.html">Agentbase</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="">The Team</a></li>
+                        <li><a href="pages/MoreAboutUs.html">The Team</a></li>
                       </div>
 
                     </div><!-- / .row -->
@@ -146,8 +146,8 @@
                 <div class="hero-content">
                   
                   <h1 class="hero-lead">CompetenceFinder</h1>
-                  <h4 class="h-alt hero-secondary" style="color: #ffffff;">Find the most relevant and skilled resource <br><br>
-                    to solve your most complex issues</h4>
+                  <h4 class="h-alt hero-secondary" style="color: #ffffff;">Find the most skilled and relevant resources <br><br>
+                    for your most complex projects and challenges</h4>
                   <a href="#about" class="btn btn-light" style="margin-bottom: 100px;">Learn More</a>
                   
                   <!-- Scroller -->
@@ -166,23 +166,30 @@
 
 
 
-        <!-- ========== Portfolio Boxed - 1 Column ========== -->
+        <!-- ========== Portfolio Boxed - 1 Column - Krivee 25/01 ========== -->
 
-        <section class="container section portfolio-layout portfolio-1col-boxed" style="padding: 100px 0px;">
-          <div class="row">
+        <section class="container section portfolio-layout portfolio-1col-boxed" style="padding: 75px 0px 100px 0px;">
+          <div class="row" style="margin-bottom: 20px;">
             <header class="sec-heading">
-              <h2>Candybase Module</h2>
-              <span class="subheading">Our platform will support your business process to provide relevant resources and solve problems for your clients.</span>
+              <h2 style="margin-bottom: 10px;">Our consulting services model</h2>
             </header>
+            <div class="row">
+                <div class="col-md-6" style="padding: 0px 0px 0px 15px;">
+                  <blockquote>Turn to us as a partner for your consulting resource needs. We <br> focus on providing our clients with the most experienced and relevant competence for each specific situation.
+                </div>
+                <div class="col-md-6" style="padding: 0px 15px 0px 0px;">
+                  <blockquote>We start by analyzing and clearly defining your need. Next we find the most suitable consultants with the specific experience and skillset required.
+                </div>
+             </div>
           </div><!-- / .row -->
           
           <!-- Filters -->
           <div class="row">
             <ul id="pfolio-filters" class="portfolio-filters">
-              <li class="active"><a href="#" data-filter="*">All</a></li>
-              <li><a href="#" data-filter=".webdesing">Webdesign</a></li>
-              <li><a href="#" data-filter=".print">Print</a></li>
-              <li><a href="#" data-filter=".photo">Photography</a></li>
+              <li class="active"><a href="#" data-filter="*">All</a></li><!--koppla filter för varje kort i elementet-->
+              <li><a href="#" data-filter=".consultants">Consultants</a></li><!--skapa filter för detta -->
+              <li><a href="#" data-filter=".clients">Clients</a></li><!--skapa filter för detta -->
+              <li><a href="#" data-filter=".partners">Partners</a></li><!--Koppla detta filter till både Business Partner och Consultancies -->
             </ul>
           </div>
 
@@ -190,54 +197,54 @@
             <div id="pfolio">
 
               <!-- Item 1 -->
-              <figure class="portfolio-item print">
+              <figure class="portfolio-item consultants">
                 <div class="col-md-7 no-gap img-wrapper">
-                  <img src="http://placehold.it/865x615" alt="Project Example">
+                  <img src="assets/images/Screenshot 2021-01-22 115823.png" alt="Project Example">
                 </div>
                 <figcaption class="col-md-5 no-gap">
-                  <h3>Candidate</h3>
-                  <h5 class="subheading">Sub heading for the project</h5>
-                  <p>Have your employed consultants use the Candybase to manage their career history and create relevant profiles/CVs that you can present to your clients</p>
-                  <a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn">View project</a>
+                  <h3>Consultants</h3>
+                  <h5 class="subheading">Join our skilled network</h5>
+                  <p>Sign up and register for our free tool Candybase, to manage your career history and create custom profiles/CVs to present your skillsets. Join our freelance expert network and put your skills to use.</p>
+                  <a href="https://candybase.pl/new/candidate/" class="btn-ghost btn-small view-btn">Register here</a><!--koppla knappen till Candybase registration page -->
                 </figcaption>
               </figure><!-- / .portfolio-item -->
 
               <!-- Item 2 -->
-              <figure class="portfolio-item webdesing">
+              <figure class="portfolio-item clients">
                 <div class="col-md-7 no-gap img-wrapper pull-right">
-                  <img src="http://placehold.it/865x615" alt="Project Example">
+                  <img src="assets/images/pictures/men-shake-hands-at-business-meeting-9A3QNL5.jpg" alt="Project Example">
                 </div>
                 <figcaption class="col-md-5 no-gap pull-left">
-                  <h3>Candidate Profiles</h3>
-                  <h5 class="subheading">Sub heading for the project</h5>
-                  <p>Apply a corporate styling to your profiles/CVs, for a uniform and professional look and feel</p>
-                  <a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn">View project</a>
+                  <h3>Clients</h3>
+                  <h5 class="subheading">Find the right consultant</h5>
+                  <p>Contact us to find the best matching skills to your need. We will help you to define your need and match that requirement to find the best available skilled professional. And we will secure delivery and follow up on results.</p>
+                  <a href="#contact" class="btn-ghost btn-small view-btn">Contact us</a><!-- koppla knappen till "Contact us" längre ner på sidan -->
                 </figcaption>
               </figure><!-- / .portfolio-item -->
 
               <!-- Item 3 -->
-              <figure class="portfolio-item photo">
+              <figure class="portfolio-item partners">
                 <div class="col-md-7 no-gap img-wrapper">
-                  <img src="http://placehold.it/865x615" alt="Project Example">
+                  <img src="assets/images/pictures/working-on-computer-Z4B9Q44.jpg" alt="Project Example">
                 </div>
                 <figcaption class="col-md-5 no-gap">
-                  <h3>Candidate Network</h3>
-                  <h5 class="subheading">Sub heading for the project</h5>
-                  <p>Increase your capacity to deliver solutions by accessing resources from the network, when your staff is not available or represent the best competence solution for the client need</p>
-                  <a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn">View project</a>
+                  <h3>Senior Partner</h3>
+                  <h5 class="subheading">Leverage your expertese and network </h5>
+                  <p>Partner with us to deliver expert solutions in your specific business or industry arena. Using our platform and tools, you will be able to leverage your expertese and capacity to deliver quality advice and solutions. </p>
+                  <a href="#contact" class="btn-ghost btn-small view-btn">Contact us</a><!-- koppla knappen till "Contact us" längre ner på sidan -->
                 </figcaption>
               </figure><!-- / .portfolio-item -->
 
               <!-- Item 4 -->
-              <figure class="portfolio-item webdesing">
+              <figure class="portfolio-item partners">
                 <div class="col-md-7 no-gap img-wrapper pull-right">
-                  <img src="http://placehold.it/865x615" alt="Project Example">
+                  <img src="assets/images/WebpagePhotos/pexels-edmond-dantès-4344860.jpg" alt="Project Example">
                 </div>
                 <figcaption class="col-md-5 no-gap pull-left">
-                  <h3>Business Partner</h3>
-                  <h5 class="subheading">Sub heading for the project</h5>
-                  <p>Your sales team get a tool to support them in their sales planning and process.</p>
-                  <a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn">View project</a>
+                  <h3>Consultancies</h3>
+                  <h5 class="subheading">Grow your proposition</h5>
+                  <p>Our tools are designed to support the consulting business process. And with access to our growing network of expert professionals, you can grow your business and widen your proposition.</p>
+                  <a href="#contact" class="btn-ghost btn-small view-btn">Contact us</a><!-- koppla knappen till "Contact us" längre ner på sidan -->
                 </figcaption>
               </figure><!-- / .portfolio-item -->
 
@@ -254,8 +261,8 @@
             <div class="row">
               
               <header class="sec-heading" style="margin: 0px 0px 100px 0px;">
-                <h2 style="color: #f5f1f1;">Who are you?</h2>
-                <span class="subheading" style="margin: 10px 0px 0px 0px; color: #f5f1f1; font-size: 13px;">Where in the picture do you fitt in
+                <h2 style="color: #f5f1f1;">Find out more</h2>
+                <span class="subheading" style="margin: 10px 0px 0px 0px; color: #f5f1f1; font-size: 13px;">Where do you fit into the picture?
                 </span>
               </header>
 
@@ -265,15 +272,15 @@
 
                   <!-- Image -->
                   <div class="t-image" >                  
-                    <img src="assets/images/CandidateCard.png" alt="Team Member" class="img-responsive">
-                    <div class="t-description" style="padding: 0px 30px 0px;">
-                      <div class="content-wrapper" style="padding: 20px 0px">
-                        <p style="margin: 0;">Are you a freelance consultant looking for assignments that leverage your competences? Use our tool to maintain your career history of experiences and skillsets, and create customized profiles/CVs for each purpose.</p>
+                    <img src="assets/images/ConsultantCard.png" alt="Team Member" class="img-responsive"> 
+                    <div class="t-description" style="padding: 30px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 20px 0px 20px">
+                        <p >Are you a freelance consultant looking for assignments that leverage your competences? Use our tool to maintain your career history of experiences and skillsets, and create customized profiles/CVs for each purpose.</p>
                         <a href="pages/Candidate.html">Learn more <span class="linea-arrows-slim-right"></span></a>
                       </div>
                     </div>
                   </div>
-
+                  
                   <!-- Info -->
                   <div class="t-info" style="display:none">
                     <h4 class="t-name">Philip Lee</h4>
@@ -297,10 +304,10 @@
                   <!-- Image -->
                   <div class="t-image" >
                     <img src="assets/images/ClientCard.png" alt="Team Member" class="img-responsive">
-                    <div class="t-description">
-                      <div class="content-wrapper" style="padding: 30px 0px 50px">
+                    <div class="t-description" style="padding: 35px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 40px 0px 5px">
                         <p>Are you looking for expert advice and increased delivery capacity? We are experts in finding the most relevant and skilled consultant available for your specific challenges.</p>
-                        <a href="pages/Clients.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                        <a href="pages/Clients.html">Learn more <span class="linea-arrows-slim-right"></span></a> 
                       </div>
                     </div>
                   </div>
@@ -322,16 +329,16 @@
 
 
               <!-- Senior Partner -->
-              <div class="col-lg-3 col-md-6 ">
+              <div class="col-lg-3 col-md-6">
                 <div class="t-item t-card-color">
 
                   <!-- Image -->
                   <div class="t-image" >
                     <img src="assets/images/SeniorPartnerCard.png" alt="Team Member" class="img-responsive">
-                    <div class="t-description">
-                      <div class="content-wrapper" style="padding: 30px 0px 30px;">
+                    <div class="t-description" style="padding: 35px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 30px 0px 10px;">
                         <p>Are you an industry or business expert with great track record, working as an independent advisor? Become a senior partner and together we can build our business on the platform.</p>
-                        <a href="pages/SeniorPartner.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                        <!-- <a href="pages/SeniorPartner.html">Learn more <span class="linea-arrows-slim-right"></span></a> -->
                       </div>
                     </div>
                   </div>
@@ -359,10 +366,10 @@
                   <!-- Image -->
                   <div class="t-image" >
                    <img src="assets/images/ConsultanciesCard.png" alt="Team Member" class="img-responsive">
-                   <div class="t-description">
-                      <div class="content-wrapper">
+                   <div class="t-description" style="padding: 45px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 35px 0px 20px;">
                         <p>Are you a consulting firm and want to grow your business? Our tools support your business process and opens your network to complementary resources when you need.</p>
-                        <a href="pages/Consultancies.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                        <!--<a href="pages/Consultancies.html">Learn more <span class="linea-arrows-slim-right"></span></a> -->
                       </div>
                     </div>
                   </div>
@@ -398,8 +405,8 @@
               <div class="col-md-12 col-lg-offset-2 col-lg-8">
                 <div class="form-wrapper">
                   <div class="from-header">
-                    <h2>Get in touch</h2>
-                    <p>Have a project you would like us to consider or just want to say hello? We would love to hear from you. Use the form below to describe your project and contact us. We promise to get in touch with you shortly.</p>
+                    <h2>Contact us</h2>
+                    <p>Thank you for your interest! Use the form to contact us with any questions or propositions.</p>
                   </div>
 
                   <form action="../assets/contact-form/contact-form.php" method="POST" class="form-minimal form-ajax">
@@ -426,7 +433,7 @@
 
                     <!-- Message -->
                     <div class="form-group">
-                      <p>Just say hello, or ask us any qustion that you have.</p>
+                      <p>Add a short message with your question or area of interest:</p>
                       <textarea class="form-control" name="message" id="message-contact-1" rows="5"></textarea>
                       <label for="message-contact-1">Message *</label>
                     </div>
@@ -448,7 +455,7 @@
 
         <!-- ========== Learn More About Us - Cards - Krivee / Display ========== -->
 
-        <div class="gray-bg sm-city-bg">
+        <div class="gray-bg sm-city-bg" style="display: none;">
           <section class="container ft-cards">
             <div class="row section" style="padding:80px 0px;">
               

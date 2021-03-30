@@ -316,8 +316,8 @@ hr {
 }
 
 .section {
-  padding-top: 160px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .section-heading h1,
@@ -5776,10 +5776,10 @@ fieldset[disabled] .form-control:hover {
 
 .portfolio-1col-fw .portfolio-item .img-wrapper, .portfolio-1col-boxed .portfolio-item .img-wrapper {
   position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  top: 10%;
+  -webkit-transform: translateY(-10%);
+      -ms-transform: translateY(-10%);
+          transform: translateY(-10%);
 }
 
 .portfolio-1col-fw .portfolio-item .img-wrapper img, .portfolio-1col-boxed .portfolio-item .img-wrapper img {
