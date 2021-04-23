@@ -3723,6 +3723,12 @@ fieldset[disabled] .form-control:hover {
   padding-left: 80px;
 }
 
+
+  .ft-tabs .tab-content .tab-content-text {
+    padding-top: 110px;
+    padding-left: 80px;
+  }
+
 .ft-tabs .tab-content .tab-content-text h4, .ft-tabs .tab-content .tab-content-text .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .tab-content .tab-content-text .tab-heading, .ft-tabs .tab-content .tab-content-text .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item blockquote footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .team-3col .t-item .t-info .t-role, .team-3col .t-item .t-info .ft-tabs .tab-content .tab-content-text .t-role, .ft-tabs .tab-content .tab-content-text .team-4col .t-item .t-info .t-role, .team-4col .t-item .t-info .ft-tabs .tab-content .tab-content-text .t-role, .ft-tabs .tab-content .tab-content-text .freelancer-about .t-item .t-info .t-role, .freelancer-about .t-item .t-info .ft-tabs .tab-content .tab-content-text .t-role, .ft-tabs .tab-content .tab-content-text .t-join .t-info .t-role, .t-join .t-info .ft-tabs .tab-content .tab-content-text .t-role, .ft-tabs .tab-content .tab-content-text .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .ft-tabs .tab-content .tab-content-text .cards-header, .ft-tabs .tab-content .tab-content-text .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-tabs .tab-content .tab-content-text .sc-lead {
   margin: 0;
   padding-bottom: 25px;
@@ -3736,9 +3742,17 @@ fieldset[disabled] .form-control:hover {
   margin-top: 45px;
 }
 
+
 .ft-tabs .tab-content .tab-content-image {
-  padding-top: 110px;
+  padding-top: 40px;
 }
+
+@media (max-width: 1650px) {
+  .ft-tabs .tab-content .tab-content-image {
+    padding-top: 80px;
+  }
+  }
+
 
 /* ---- 9.9 Lists ---- */
 .list-check, .list-square-check, .list-circle-check, .list-square-check-full, .list-circle-check-full {
