@@ -101,6 +101,15 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
   }
   }
 
+ /* @media (max-hight: 500px) {
+    .sm-erickssons-bg-md {
+      background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+      background-size: cover;
+      background-position: 50% 50%;
+      background-attachment: fixed;
+    }
+    }*/
+
 .sm-city-bg {
   background-image: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
@@ -186,24 +195,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 }
 
 
-/*    Scaling Properties  @media(min-width)  */
-
-/* xs */
-@media (min-width: 100px) {
-
-}
-
-/* sm */
-@media (min-width: 768px)  {
-
-
-}
-
-/* md */
-@media (min-width: 992px) {
-
-
-}
+/*    Scaling Properties  @media(max-width)  */
 
 /* lg */
 @media (min-width: 1200px) {
@@ -214,4 +206,44 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
     padding: 0px 100px 0px 15px;
   }
 
+}
+
+
+/* md */
+@media (max-width: 992px) {
+  .portfolio-layout .col-md-6.pfol-1{
+    padding: 0px 0px 0px 15px;
+  }
+  .portfolio-layout .col-md-6.pfol-2{
+    padding: 0px 15px 0px 15px;
+  }
+}
+
+
+/* sm */
+@media (max-width: 670px)  {
+  .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    max-width: 670px;
+   }
+   .agency2-hero .hero-content-wrapper .hero-content .hero-secondary{
+    font-size: 1.0em;
+    font-weight: 450;
+    letter-spacing: 5px;
+    max-width: 670px;
+   }
+}
+
+
+
+/* xs */
+@media (max-width: 450px ) { 
+  .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
+  font-size: 1.95em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  max-width: 450px;
+ }
 }

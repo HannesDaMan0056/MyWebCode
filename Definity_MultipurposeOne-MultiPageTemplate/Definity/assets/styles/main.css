@@ -7890,7 +7890,7 @@ form .input-error-2:focus {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   padding-left: 10%;
 }
 
@@ -8304,10 +8304,10 @@ form .input-error-2:focus {
 
 .agency2-hero {
   /*
-  background-image: url("../../assets/images/AbstractPolygonBackgrounds/JPG/01.jpg");
+  background-image: url("../../assets/images/AbstractPolygonBackgrounds/JPG/01.jpg"); */
   background-size: cover;
   background-position: 50%;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
 }
 
 .agency2-hero .bg-overlay {
@@ -8363,6 +8363,13 @@ form .input-error-2:focus {
 .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
   letter-spacing: 10px;
   font-weight: 600;
+}
+@media (max-width: 600px) {
+  .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0px;
+ }
 }
 
 .agency2-hero .hero-content-wrapper .hero-content .btn, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .btn-text, .agency2-hero .hero-content-wrapper .hero-content .btn-text-light, .agency2-hero .hero-content-wrapper .hero-content .btn-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-light {
