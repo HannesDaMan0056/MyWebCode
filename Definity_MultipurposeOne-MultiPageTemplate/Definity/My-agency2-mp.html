@@ -68,19 +68,20 @@
               <ul class="nav navbar-nav">
                 
                 <li><a href="#home">Home</a></li>     <!--  this one loses it´s hover over effect on Canidate and My-Agency2! -->
+                <li><a href="pages/Clients.html"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
+                <li><a href="pages/Candidate.html"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
                 
                 <!-- Who are you? -->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Who are you?<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Network<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <div class="row">
 
                       <!-- Basic -->
                       <div class="col-lg-12 mb-sm-30">
-                        <li class="dropdown-header">Who are you?</li>
+                        <li class="dropdown-header">Network</li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/Candidate.html"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
-                        <li><a href="pages/Clients.html"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
+                        
                         <li><a href="pages/SeniorPartner.html"><span class="et-puzzle" style="margin: 0px 7px 0px 0px;"></span> Senior Partner</a></li>
                         <li><a href="pages/Consultancies.html"><span class="et-gears" style="margin: 0px 7px 0px 0px;"></span>Consultancies</span></a></li> 
                         </div>
@@ -145,7 +146,7 @@
               <div class="hero-content-wrapper">
                 <div class="hero-content" style="position: relative; ">
                   
-                  <h1 class="hero-lead">CompetenceFinder</h1>
+                  <h1 class="hero-lead">Competence Finder</h1>
                   <h4 class="h-alt hero-secondary" style="color: #ffffff;">Find the most skilled and relevant resources <br><br>
                     for your specific needs</h4>
                   <a href="#about" class="btn btn-light">Learn More</a>
@@ -185,30 +186,17 @@
 
         <section class="container section portfolio-layout portfolio-1col-boxed" style="padding: 0px 0px 100px 0px;">      
           <!-- Filters -->
-          <div class="row">
+          <div class="row" style="display: none;">
             <ul id="pfolio-filters" class="portfolio-filters">
               <li class="active"><a href="#" data-filter="*">All</a></li><!--koppla filter för varje kort i elementet-->
               <li><a href="#" data-filter=".consultants">Consultants</a></li><!--skapa filter för detta -->
               <li><a href="#" data-filter=".clients">Clients</a></li><!--skapa filter för detta -->
-              <li><a href="#" data-filter=".partners">Partners</a></li><!--Koppla detta filter till både Business Partner och Consultancies -->
+              <!--<li><a href="#" data-filter=".partners">Partners</a></li><!--Koppla detta filter till både Business Partner och Consultancies -->
             </ul>
           </div>
 
           <div class="row">
             <div id="pfolio">
-
-              <!-- Item 1 -->
-              <figure class="portfolio-item consultants">
-                <div class="col-md-7 no-gap img-wrapper">
-                  <img src="assets/images/Screenshot 2021-01-22 115823.png" alt="Project Example">
-                </div>
-                <figcaption class="col-md-5 no-gap">
-                  <h3>Consultants</h3>
-                  <h5 class="subheading">Join our skilled network</h5>
-                  <p>Sign up and register for our free tool Candybase, to manage your career history and create custom profiles/CVs to present your skillsets. Join our freelance expert network and put your skills to use.</p>
-                  <a href="/new/candidate/" class="btn-ghost btn-small view-btn">Register here</a><!--koppla knappen till Candybase registration page -->
-                </figcaption>
-              </figure><!-- / .portfolio-item -->
 
               <!-- Item 2 -->
               <figure class="portfolio-item clients">
@@ -223,8 +211,21 @@
                 </figcaption>
               </figure><!-- / .portfolio-item -->
 
+              <!-- Item 1 -->
+              <figure class="portfolio-item consultants">
+                <div class="col-md-7 no-gap img-wrapper">
+                  <img src="assets/images/Screenshot 2021-01-22 115823.png" alt="Project Example">
+                </div>
+                <figcaption class="col-md-5 no-gap">
+                  <h3>Consultants</h3>
+                  <h5 class="subheading">Join our skilled network</h5>
+                  <p>Sign up and register for our free tool Candybase, to manage your career history and create custom profiles/CVs to present your skillsets. Join our freelance expert network and put your skills to use.</p>
+                  <a href="/new/candidate/" class="btn-ghost btn-small view-btn">Register here</a><!--koppla knappen till Candybase registration page -->
+                </figcaption>
+              </figure><!-- / .portfolio-item -->
+
               <!-- Item 3 -->
-              <figure class="portfolio-item partners">
+              <figure class="portfolio-item partners" style="display: none;">
                 <div class="col-md-7 no-gap img-wrapper">
                   <img src="assets/images/pictures/working-on-computer-Z4B9Q44.jpg" alt="Project Example">
                 </div>
@@ -237,7 +238,7 @@
               </figure><!-- / .portfolio-item -->
 
               <!-- Item 4 -->
-              <figure class="portfolio-item partners">
+              <figure class="portfolio-item partners" style="display: none;">
                 <div class="col-md-7 no-gap img-wrapper pull-right">
                   <img src="assets/images/WebpagePhotos/pexels-edmond-dantès-4344860.jpg" alt="Project Example">
                 </div>
@@ -339,7 +340,7 @@
                     <div class="t-description" style="padding: 35px 30px 0px;">
                       <div class="content-wrapper" style="padding: 30px 0px 10px;">
                         <p>Are you an industry or business expert with great track record, working as an independent advisor? Become a senior partner and together we can build our business on the platform.</p>
-                        <a href="pages/SeniorPartner.html">Learn more <span class="linea-arrows-slim-right"></span></a> -->
+                        <a href="pages/SeniorPartner.html">Learn more <span class="linea-arrows-slim-right"></span></a> 
                       </div>
                     </div>
                   </div>
@@ -370,7 +371,7 @@
                    <div class="t-description" style="padding: 45px 30px 0px;">
                       <div class="content-wrapper" style="padding: 35px 0px 20px;">
                         <p>Are you a consulting firm and want to grow your business? Our tools support your business process and opens our freelance network to complementary resources when you need it.</p>
-                        <a href="pages/Consultancies.html">Learn more <span class="linea-arrows-slim-right"></span></a> -->
+                        <a href="pages/Consultancies.html">Learn more <span class="linea-arrows-slim-right"></span></a> 
                       </div>
                     </div>
                   </div>

@@ -1478,8 +1478,9 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-size: 17.5px;
+  font-size: 1.3em;
   border-left: 5px solid #eee;
+  letter-spacing: 0.5px;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -4346,7 +4347,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
+    margin-left: 0px;
   }
 }
 .navbar-toggle {
