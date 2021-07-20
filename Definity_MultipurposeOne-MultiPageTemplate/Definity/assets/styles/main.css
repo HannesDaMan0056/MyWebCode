@@ -2215,7 +2215,7 @@ fieldset[disabled] .form-control:hover {
   margin-bottom: 1px;
   width: 86px;
   height: 86px;
-  float: left;
+
   background: #ccc;
   overflow: hidden;
 }
@@ -2295,7 +2295,7 @@ fieldset[disabled] .form-control:hover {
   margin-right: 5px;
   padding-top: 3px;
   margin-bottom: 30px;
-  float: left;
+
   font-size: 24px;
   color: rgba(255, 255, 255, 0.3);
 }
@@ -3187,7 +3187,7 @@ fieldset[disabled] .form-control:hover {
 .ft-cards-2 .ft-card-item img {
   display: inline-block;
   max-width: 240px;
-  float: left;
+
 }
 
 .ft-cards-2 .ft-card-item .ft-content {
@@ -3209,7 +3209,7 @@ fieldset[disabled] .form-control:hover {
 .ft-cards-2 .ft-card-item .ft-content .link-btn {
   display: inline-block;
   margin-top: 30px;
-  float: right;
+
   color: #777;
   -webkit-transform: translateX(30px);
       -ms-transform: translateX(30px);
@@ -3491,7 +3491,7 @@ fieldset[disabled] .form-control:hover {
   padding: 28px 26px;
   width: 85px;
   height: 85px;
-  float: left;
+
   font-size: 28px;
   line-height: 28px;
   text-align: center;
@@ -3544,7 +3544,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-x .right-align .ft-icon, .ft-y .right-align .ft-icon {
-  float: right;
+  
   display: inline-block;
   margin-left: 20px;
   width: 30%;
@@ -3573,7 +3573,7 @@ fieldset[disabled] .form-control:hover {
   display: inline-block;
   position: relative;
   width: 25%;
-  float: left;
+
   margin-top: -1px;
   margin-left: -1px;
   padding: 50px;
@@ -6319,9 +6319,9 @@ fieldset[disabled] .form-control:hover {
 	17.0 CTA - Call to Action
 -------------------------------------------------- */
 /* ---- 17.1 CTA - Link ---- */
-.cta-link {
-  background: url(../../assets/images/shattered.gif) repeat;
-}
+/*.cta-link {
+  background: url(../../assets/images/shattered.gif) repeat; 
+} */
 
 .cta-link .bg-overlay {
   width: 100%;
@@ -7097,7 +7097,7 @@ form .input-error-2:focus {
   height: 50px;
   font-size: 32px;
   color: #777;
-  float: left;
+  
 }
 
 .contact-2 .address-info .address-info-item h6, .contact-2 .address-info .address-info-item .progress-group .progress-title, .progress-group .contact-2 .address-info .address-info-item .progress-title,
@@ -7360,7 +7360,7 @@ form .input-error-2:focus {
   padding: 30px 50px;
   width: 50%;
   height: 100%;
-  float: left;
+
   border-right: 1px solid #eaeaea;
   background: #fff;
 }
@@ -7390,7 +7390,7 @@ form .input-error-2:focus {
   display: inline-block;
   right: 40px;
   top: 40px;
-  float: right;
+
   font-size: 50px;
   color: #111;
   vertical-align: top;
@@ -7898,7 +7898,7 @@ form .input-error-2:focus {
   display: table-cell;
   width: 100%;
   height: 100%;
-  vertical-align: middle;
+  vertical-align: middle; 
 }
 
 .main-demo-hero .hero-content-wrapper .hero-content .hero-lead, .fs-video-hero .hero-content-wrapper .hero-content .hero-lead, .fw-video-hero .hero-content-wrapper .hero-content .hero-lead, .text-slider-hero .hero-content-wrapper .hero-content .hero-lead, .freelancer-hero .hero-content-wrapper .hero-content .hero-lead, .agency2-hero .hero-content-wrapper .hero-content .hero-lead, .animated-hero .hero-content-wrapper .hero-content .hero-lead, .web-app-hero .hero-content-wrapper .hero-content .hero-lead {
@@ -9172,13 +9172,11 @@ form .input-error-2:focus {
   display: inline-block;
   margin: 0;
   list-style: none;
-  float: right;
 }
 
 .portfolio-item.hover-bottom figure figcaption .hover-btns li {
   display: inline-block;
   margin-left: 1px;
-  float: right;
   background: #2b2b2b;
   -webkit-transition: background 0.4s;
           transition: background 0.4s;
@@ -9322,7 +9320,6 @@ form .input-error-2:focus {
 .portfolio-item.hover-side figure figcaption .hover-btns li {
   display: inline-block;
   margin-left: 15px;
-  float: right;
 }
 
 .portfolio-item.hover-side figure figcaption .hover-btns li:hover a {
@@ -9914,7 +9911,7 @@ form .input-error-2:focus {
 .totals-content .subtotal-group p, .totals-content .shipping-group p {
   display: inline-block;
   text-align: right;
-  float: right;
+  
   font-size: 12px;
   letter-spacing: 1px;
   color: #999;
@@ -10130,7 +10127,7 @@ form .input-error-2:focus {
 .prod-size .sizes li {
   display: inline-block;
   margin-right: 9px;
-  float: left;
+
   font-weight: 400;
 }
 

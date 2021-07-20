@@ -65,13 +65,8 @@
   background: url(../images/Marcin.jpg) 0 0;
 }
 
-/*  BG  */
-.sm-shatterd-bg {
-  background-image: url("../../assets/images/shattered.gif");
-  background-size: cover;
-  background-position: 50%;
-  background-attachment: fixed;
-}
+
+
 /*linear-gradient(30deg,#24252d00 40%,#02040586 60%)
  linear-gradient(30deg,#01041b88 0%,#01041b88 100%),
 radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
@@ -87,7 +82,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 .sm-erickssons-bg {
   background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
-  background-position: 50% 20%;
+  background-position: 100% 0%;
   background-attachment: fixed;
 }
 
@@ -96,7 +91,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
   .sm-erickssons-bg-md {
     background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 0% 20%;
     background-attachment: fixed;
   }
   }
