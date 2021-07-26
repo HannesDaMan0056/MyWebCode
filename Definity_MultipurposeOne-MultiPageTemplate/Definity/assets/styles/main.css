@@ -7898,7 +7898,7 @@ form .input-error-2:focus {
   display: table-cell;
   width: 100%;
   height: 100%;
-  vertical-align: middle; 
+  vertical-align: middle;
 }
 
 .main-demo-hero .hero-content-wrapper .hero-content .hero-lead, .fs-video-hero .hero-content-wrapper .hero-content .hero-lead, .fw-video-hero .hero-content-wrapper .hero-content .hero-lead, .text-slider-hero .hero-content-wrapper .hero-content .hero-lead, .freelancer-hero .hero-content-wrapper .hero-content .hero-lead, .agency2-hero .hero-content-wrapper .hero-content .hero-lead, .animated-hero .hero-content-wrapper .hero-content .hero-lead, .web-app-hero .hero-content-wrapper .hero-content .hero-lead {
@@ -8308,6 +8308,7 @@ form .input-error-2:focus {
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
+
 }
 
 .agency2-hero .bg-overlay {
@@ -8316,10 +8317,12 @@ form .input-error-2:focus {
 
 .agency2-hero .large-header .demo-canvas {
   max-width: 100%;
+
 }
 
 .agency2-hero .hero-content-wrapper {
   padding-left: 0;
+
 }
 
 .agency2-hero .hero-content-wrapper .hero-content {
@@ -8354,7 +8357,7 @@ form .input-error-2:focus {
 .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
   margin-top: 0;
   font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 4em;
+  font-size: 4.9em;
   font-weight: 600;
   letter-spacing: 10px;
   color: #ffffff;
@@ -8362,7 +8365,7 @@ form .input-error-2:focus {
 
 .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
   letter-spacing: 10px;
-  font-weight: 600;
+  font-weight: 800;
 }
 @media (max-width: 600px) {
   .agency2-hero .hero-content-wrapper .hero-content .hero-lead {

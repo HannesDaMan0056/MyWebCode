@@ -108,7 +108,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 .sm-city-bg {
   background-image: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
-  background-position: 0% 50%;
+  background-position: 0% 100%;
   background-attachment: fixed;
 }
 
