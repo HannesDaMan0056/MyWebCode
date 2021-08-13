@@ -3174,7 +3174,7 @@ fieldset[disabled] .form-control:hover {
   background: #fff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.3s;
-          transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .ft-cards-2 .ft-card-item:hover {
@@ -3187,7 +3187,6 @@ fieldset[disabled] .form-control:hover {
 .ft-cards-2 .ft-card-item img {
   display: inline-block;
   max-width: 240px;
-
 }
 
 .ft-cards-2 .ft-card-item .ft-content {
