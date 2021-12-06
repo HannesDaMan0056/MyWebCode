@@ -4,7 +4,7 @@
   "description": "landing page",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/watch-http-server -p 8005 -c-1 ./Definity_MultipurposeOne-MultiPageTemplate/Definity -o /My-agency2-mp.html"
+    "start": "http-server -p 8005 ./Definity_MultipurposeOne-MultiPageTemplate/Definity -o /My-agency2-mp.html"
   },
   "author": "",
   "license": "ISC",
