@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Adroit - Candidate</title>
+        <title>SkillBased - Consultants</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -45,7 +45,7 @@
           <img src="../assets/images/loader.svg" alt="Loading...">
         </div>
 
-
+<!-- Byt namn på sidan till Consultants (isf Candidates) ! -->
         
         <!-- ========== Navigation ========== -->
 
@@ -60,30 +60,31 @@
               </button>
 
               <!-- Logo -->
-              <a class="navbar-brand" href="../My-agency2-mp.html"><img src="../assets/images/ADROIT.png" alt="Adroit"></a>
+              <a class="navbar-brand" href="#home" style="padding: 0px;"><img style="height: 50px;" src="../assets\images/SkillBased/Mod/Color logo - no background.png" alt="Adroit"></a>
             </div><!-- / .navbar-header -->
 
 
             <!-- Navbar Links -->
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
+<!-- Menyer alldeles för osynliga - går de att göra tydligare? -->                
+                <li><a href="../My-agency2-mp.html">Home</a></li>     <!--  this one loses it´s hover over effect on Canidate and My-Agency2! -->
+                <li><a href="Clients.html"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
+                <li><a href="#pagetitle"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
                 
-                <li><a href="../My-agency2-mp.html" style="color: #a1a1a1;">Home</a></li>     <!--  this one loses it´s hover over effect-->
-
                 <!-- Who are you? -->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a1a1a1;">Who are you?<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Network<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <div class="row">
 
                       <!-- Basic -->
                       <div class="col-lg-12 mb-sm-30">
-                        <li class="dropdown-header">Who are you?</li>
+                        <li class="dropdown-header">Network</li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#pagetitle"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
-                        <li><a href="Clients.html"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
-                        <li><a href="Consultancies.html"><span class="et-gears" style="margin: 0px 7px 0px 0px;"></span>Consultancies</span></a></li>
+                        
                         <li><a href="SeniorPartner.html"><span class="et-puzzle" style="margin: 0px 7px 0px 0px;"></span> Senior Partner</a></li>
+                        <li><a href="Consultancies.html"><span class="et-gears" style="margin: 0px 7px 0px 0px;"></span>Consultancies</span></a></li> 
                         </div>
 
                     </div><!-- / .row -->
@@ -91,8 +92,8 @@
                 </li><!-- / Who are you? -->
 
                 <!-- More about -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a1a1a1;">More About<span class="caret"></span></a>
+                <li class="dropdown" style="display: none;">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">More About<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <div class="row">
 
@@ -117,12 +118,12 @@
 
                 <!-- Register / Log In -->
                 <li class="dropdown">
-                  <a href="#home" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a1a1a1;">Register/Log in<span class="caret"></span></a>
+                  <a href="#home" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Register/Log in<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li class="dropdown-header">To Our Products</li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="https://candybase.pl/new/candidate/" target="_blank">Candybase</a></li>
-                    <li><a href="https://candybase.pl/agent/" target="_blank">Agentbase</a></li>                    
+                    <li><a href="/new/candidate/" target="_blank">Candybase</a></li>
+                    <li><a href="/agent/" target="_blank">Agentbase</a></li>                    
                   </ul>
                 </li><!-- / Register / Log In -->
 
@@ -134,15 +135,14 @@
 
 
 
-        <!-- ========== Page Title ========== -->
+        <!-- ========== Page Title - Krivee 16/01 ========== -->
 
         <header class="page-title pt-large pt-dark sm-city-bg" id="pagetitle">
           <div class="container">
               <div class="row">
 
                 <div class="col-sm-6">
-                  <h1>Welcome Consultants!</h1>
-<!-- FORMULERAT OM! -->
+                  <h1>Consultant network</h1>
                   <span class="subheading">Become part of our network of highly skilled professionals. 
                     Use our free tool to manage your career and present yourself to clients and employers.</span>
                 </div>
@@ -156,45 +156,56 @@
             </div>
         </header>
 
+        <!-- ========== About - Section ========== -->
 
-        <!-- ========== Feature - Steps Numbers - jove ========== -->
-
-        <section class="container ft-steps-numbers" style="display: none;">
-          <div class="row section" style="padding: 80px 0px 40px;">
+        <section id="about" class="container">
+          <div class="row section" style="padding: 100px 0px 50px;">
             
-            <!-- Step 1 -->
-            <div class="col-lg-4 col-md-6 ft-item">
-              <span class="ft-nbr">1</span>
-              <h4>Design</h4>
-              <p>Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>
-            </div>
+            <header class="sec-heading" style="margin: 0px 0px 30px;">
+              
+              <h2>Qualify as a SkillBased consultant</h2>
+              <span class="subheading" style="display: none;">tessttestes</span>
+            </header>
 
-            <!-- Step 2 -->
-            <div class="col-lg-4 col-md-6 ft-item">
-              <span class="ft-nbr">2</span>
-              <h4>Develop</h4>
-              <p>Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>
+            <div class="col-md-6">
+              <blockquote>The majority of consultants are working in niche firms with five or fewer employees. These are professionals with expert skills,  
+                operational execution experience from specific industries and functional areas. When you are small it is difficult to market your services and be found outside your network.</p>
+                • Make sure our clients find you through your skills and competence </p>
+                • By working in extended networks, you can leverage your skills and keep building experience </p>
+                • With operational experience, you can support clients implement change and reach targets </p>
+                • Perfect matching gives efficiency in delivery, rather than price pressure </p>
+                • Flexible business models enables you to expand your proposition and find complementary resources when you own the client relationship </p>
+                
+              </blockquote>
             </div>
+            <div class="col-md-6">
+              <blockquote>
+                Just as we work with developing our clients processes, we strive to make the resourcing process more efficient for all parties in the market. 
+                That means flexibility and cooperation in partnerships and business models, to enable value added solutions to clients. 
+                It also means using digital profiling tools and processes that build matching solutions focusing on skills and relevant experience.</p>
+                </p>
+                Right now we are focusing on builing the competence network in Financial Services, Banking and Insurance. If this is your area of expertese, please register to become part of our network
+                and get included in our search and matching. </p></p>
 
-            <!-- Step 3 -->
-            <div class="col-lg-4 col-md-6 ft-item">
-              <span class="ft-nbr">3</span>
-              <h4>Deploy</h4>
-              <p>Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>
+                We offer you a free consultant profiling tool, that you can use for all purposes of presenting yourself and your competences. The more detailed and elaborate you are, the better matches 
+                you can get on assignments that will leverage your skillset.</p></p> 
+                
+                Read more below and register. 
+              </blockquote>
             </div>
-
           </div><!-- / .row -->
         </section><!-- / .container -->
 
 
-        <!-- ========== Feature - Steps Numbers - Krivee ========== -->
+ <!-- Går det att centrera rubrik och text i nivå med siffran? -->
+        <!-- ========== Feature - Steps Numbers - Krivee 16/01 ========== -->
 
         <section class="container ft-steps-numbers">
           <div class="row section">
-<!-- FORMULERAT OM ALLA! -->
-            <header class="sec-heading" style="margin: 0px 0px 70px;" >
+
+            <header class="sec-heading" style="margin: 0px 0px 80px;" >
               <h2>Managing your profile</h2>
-              <span class="subheading">Your skills and experiences make you unique and valuable. Keep your profile updated and relevant.</span>
+              <span class="subheading" style="margin: 5px 0px 0px 0px;">Your skills and experiences make you unique and valuable. Keep your profile updated and relevant.</span>
             </header>
 
             <!-- Step 1 -->
@@ -222,95 +233,36 @@
         </section><!-- / .container -->
 
 
-
-
-        <!-- ========== Portfolio Boxed - 1 Column ========== -->
-
-        <section class="container section portfolio-layout portfolio-1col-boxed" style="display: none;">
-          <div class="row">
-            <header class="sec-heading">
-              <h2>Candybase Agent Module</h2>
-              <span class="subheading">Our platform will support your business process to provide relevant resources and solve problems for your clients.</span>
-            </header>
-          </div><!-- / .row -->
-          
-          <!-- Filters -->
-          <div class="row">
-            <ul id="pfolio-filters" class="portfolio-filters">
-              <li class="active"><a href="#" data-filter="*">All</a></li>
-              <li><a href="#" data-filter=".webdesing">One source</a></li>
-              <li><a href="#" data-filter=".print">Profiles/CVs</a></li>
-              
-            </ul>
-          </div>
-
-          <div class="row">
-            <div id="pfolio">
-
-              <!-- Item 1 -->
-              <figure class="portfolio-item print">
-                <div class="col-md-7 no-gap img-wrapper">
-                  <img src="../assets/images/workexp.png" alt="Project Example">
-                </div>
-                <figcaption class="col-md-5 no-gap">
-                  <h3 style="margin-top: 0px;">One CV database</h3>
-                  <h5 class="subheading">Sub heading for the project</h5>
-                  <p><strong>One source</strong> - keep your carrier history structured in one place, use it for all purposes</p>
-                  <p><strong>Interactive updating</strong> - when you are active in searches you also update your profile, to keep it current and relevant</p>
-                  <p><strong>Control your visibility</strong> - you are in charge of your career, how and where you are associated and want to be seen.</p>
-                  <!--<a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn" style="margin-top: 5px;">View project</a>-->
-                </figcaption>
-              </figure><!-- / .portfolio-item -->
-
-              <!-- Item 2 -->
-              <figure class="portfolio-item webdesing">
-                <div class="col-md-7 no-gap img-wrapper pull-right">
-                  <img src="../assets/images/2020-09-29.png" alt="Project Example">
-                </div>
-                <figcaption class="col-md-5 no-gap pull-left">
-                  <h3>Website Redesign</h3>
-                  <h5 class="subheading">Sub heading for the project</h5>
-                  <p><strong>Profiles/CVs</strong> - tool to create multiple profiles/cv, customize your profile for various roles/assignments, control your visibility.</p>
-                  <p><strong>Be relevant</strong> - your combination of skills, roles, work and industry experiences make you unique and relevant for specific assignments.</p>
-                  <!--<a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn" style="margin-top: 5px;">View project</a>-->
-                </figcaption>
-              </figure><!-- / .portfolio-item -->
-
-            </div><!-- / #pfolio -->
-          </div><!-- / .row -->
-        </section><!-- / .container -->
-
-
         
-        <!-- ========== CTA - Contact Link ========== -->
+        <!-- ========== CTA - Contact Link - Krivee 16/01 ========== -->
 
         <div class="cta-city-link">
           <div class="bg-overlay">
-<!-- ÄNDRAT STAVNING -->
+            
             <div class="cta-wrapper">
-              <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Welcome to Candybase!</h3>
+              <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Welcome to Skillbase!</h3>
               <a href="https://candybase.com" class="btn btn-light btn-large wow fadeIn" data-wow-delay=".3s" data-wow-duration="1s">Register now!</a>
             </div>
 
           </div>
-        </div><!-- / .cta-link -->
+        </div><!-- / -->
 
 
 
-        <!-- ========== Feature - Tabs - Krivee ========== -->
+        <!-- ========== Feature - Tabs - Krivee 16/01 ========== -->
 
         <div class="container-fluid ft-tabs" style="padding: 70px 0px;">
           <div class="row">
-            <!-- FORMULERAT OM! -->
+            
             <header class="sec-heading" style="margin: 0px 0px 70px;">
-              <h2>Start working with our tool for consultants</h2>
+              <h2>Start working with our consultant tool</h2>
               <span class="subheading" style="margin: 10px 0px;">Take control of your consultant profile, expand your network & be found when your skills are requested</span>
             </header>
 
             <!-- Tabs -->
             <div class="col-lg-4 no-gap">
               <ul class="tabs-list" role="tablist">
-<!-- FORMULERAT OM! -->
+
                 <!-- Tab 1 -->
                 <li role="presentation" class="active">
                   <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">
@@ -327,7 +279,7 @@
                   <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">
                     <span class="linea-basic-gear tab-icon"></span>
                     <div class="tab-group">
-                      <span class="tab-heading">Search & be found</span>
+                      <span class="tab-heading">Search & Match</span>
                       <span class="tab-info">Matching skills to client needs</span>
                     </div>
                   </a>
@@ -347,10 +299,10 @@
               </ul>
             </div><!-- / .col-lg-4 -->
 
-
+<!-- Fixa Bilder! -->
             <!-- Tabs Content -->
             <div class="col-lg-8 no-gap tab-content">
-<!-- FORMULERAT OM! -->
+
               <!-- Tab Content 1 -->
               <div id="tab1" role="tabpanel" class="tab-pane fade in active">
                 <div class="col-md-6 tab-content-text">
@@ -360,11 +312,11 @@
                 </div>
 
                 <div class="col-md-6 tab-content-image">
-                  <img src="http://placehold.it/760x485" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
+                  <img src="../assets/images/FeatureTabs/Screenshot 2021-01-22 155700(darker).png" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
                 </div>
               </div><!-- / #tab1 -->
-<!-- FIXA BILD! -->
-              <!-- Tab Content 2 -->
+<!-- Fixa Bilder! -->
+              <!-- Tab Content 2  -->
               <div id="tab2" role="tabpanel" class="tab-pane fade">
                 <div class="col-md-6 tab-content-text">
                   <h4>Tagging & rating skills</h4>
@@ -373,10 +325,10 @@
                 </div>
 
                 <div class="col-md-6 tab-content-image">
-                  <img src="http://placehold.it/760x485" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
+                  <img src="../assets/images/FeatureTabs/Screenshot 2021-04-19 175854.png" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
                 </div>
-              </div><!-- / #tab1 -->
-<!-- FIXA BILD! -->
+              </div><!-- / #tab2 -->
+<!-- Fixa Bilder! -->
               <!-- Tab Content 3 -->
               <div id="tab3" role="tabpanel" class="tab-pane fade">
                 <div class="col-md-6 tab-content-text">
@@ -386,15 +338,14 @@
                 </div>
 
                 <div class="col-md-6 tab-content-image">
-                  <img src="http://placehold.it/760x485" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
+                  <img src="../assets/images/FeatureTabs/Screenshot 2021-04-19 175221.png" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
                 </div>
               </div><!-- / #tab1 -->
-<!-- FIXA BILD! -->              
+              
             </div><!-- / .col-lg-8 -->
 
           </div><!-- / .row -->
         </div><!-- / .container-fluid -->
-
 
 
 
@@ -403,12 +354,13 @@
         <section id="contact" class="contact-3 sm-city-bg">
           <div class="container">
             <div class="row">
- <!-- FIXAT TEXTERNA! -->             
+              
               <div class="col-md-12 col-lg-offset-2 col-lg-8">
                 <div class="form-wrapper">
                   <div class="from-header">
                     <h2>Contact us</h2>
-                    <p>Thank you for your interest! Use the form to contact us with any questions or propositions.</p>
+                    <p>Thank you for your interest! </p>
+                    Use the form to contact us with any questions or propositions.</p>
                   </div>
 
                   <form action="../assets/contact-form/contact-form.php" method="POST" class="form-minimal form-ajax">
@@ -456,13 +408,13 @@
 
 
         <!-- ========== Learn More About Us - Cards - Krivee / Display ========== -->
-<!-- TA BORT ELEMENTET! -->
-        <div class="gray-bg sm-city-bg">
+
+        <div class="gray-bg" style="display: none;">
           <section class="container ft-cards">
             <div class="row section" style="padding:80px 0px;">
               
               <header class="sec-heading" style="margin: 0px 0px 80px 0px;">
-                <h2 style="color: white;">Learn More About:</h2>
+                <h2 style="color: #000000;">Learn More About:</h2>
              </header>
 
               <!-- Item 1 -->
@@ -590,7 +542,7 @@
               <div class="row">
                 
                 <div class="col-md-6">
-                  <small>&copy; 2015 Definity. Made by <a class="no-style-link" href="http://themeforest.net/user/octarinethemes" target="_self">OctarineThemes</a></small>
+                  <small>&copy; 2022 <a class="no-style-link" href="http://themeforest.net/user/octarinethemes" target="_self">Skillbased Consulting AB</a></small>
                 </div>
 
                 <div class="col-md-6">

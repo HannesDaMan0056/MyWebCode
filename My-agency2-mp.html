@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CompetenceFinder</title>
+        <title>SkillBased Consulting</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -48,7 +48,7 @@
 
         <!-- ========== Navigation ========== -->
 
-        <nav class="navbar  navbar-fixed-top mega navbar-inverse navbar-trans" role="navigation">
+        <nav class="navbar navbar-fixed-top mega navbar-inverse navbar-trans" role="navigation" >
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -59,7 +59,7 @@
               </button>
 
               <!-- Logo -->
-              <a class="navbar-brand" href="#home"><img src="assets\images\ADROIT.png" alt="Adroit"></a>
+              <a class="navbar-brand" href="#home" style="padding: 0px;"><img style="height: 50px;" src="assets\images/SkillBased/Mod/Color logo - no background.png" alt="Adroit"></a>
             </div><!-- / .navbar-header -->
 
 
@@ -67,22 +67,23 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 
-                <li><a href="#home">Home</a></li>     <!--  this one loses it´s hover over effect-->
+                <li><a href="#home">Home</a></li>     <!--  this one loses it´s hover over effect on Canidate and My-Agency2! -->
+                <li><a href="pages/Clients.html"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
+                <li><a href="pages/Candidate.html"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
                 
                 <!-- Who are you? -->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Who are you?<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Network<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <div class="row">
 
                       <!-- Basic -->
                       <div class="col-lg-12 mb-sm-30">
-                        <li class="dropdown-header">Who are you?</li>
+                        <li class="dropdown-header">Network</li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/Candidate.html"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
-                        <li><a href="pages/Clients.html"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
-                        <li><a href="pages/Consultancies.html"><span class="et-gears" style="margin: 0px 7px 0px 0px;"></span>Consultancies</span></a></li>
+                        
                         <li><a href="pages/SeniorPartner.html"><span class="et-puzzle" style="margin: 0px 7px 0px 0px;"></span> Senior Partner</a></li>
+                        <li><a href="pages/Consultancies.html"><span class="et-gears" style="margin: 0px 7px 0px 0px;"></span>Consultancies</span></a></li> 
                         </div>
 
                     </div><!-- / .row -->
@@ -90,7 +91,7 @@
                 </li><!-- / Who are you? -->
 
                 <!-- More about -->
-                <li class="dropdown">
+                <li class="dropdown" style="display: none;">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">More About<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <div class="row">
@@ -120,8 +121,8 @@
                   <ul class="dropdown-menu">
                     <li class="dropdown-header">Our Products</li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="https://candybase.pl/new/candidate/" target="_blank">Candybase</a></li>
-                    <li><a href="https://candybase.pl/agent/" target="_blank">Agentbase</a></li>                    
+                    <li><a href="/new/candidate/" target="_blank">Candybase</a></li>
+                    <li><a href="/agent/" target="_blank">Agentbase</a></li>
                   </ul>
                 </li><!-- / Register / Log In -->
 
@@ -135,7 +136,7 @@
 
         <!-- ========== Hero Cover ========== -->
 
-        <div id="home" class="agency2-hero sm-erickssons-bg sm-erickssons-bg-md">
+        <div id="home" class="agency2-hero sm-erickssons-bg sm-erickssons-bg-md" >
           <div class="bg-overlay">
             
             <div id="large-header" class="large-header">
@@ -143,18 +144,18 @@
 
               <!-- Hero Content -->
               <div class="hero-content-wrapper">
-                <div class="hero-content">
+                <div class="hero-content" style="position: relative;">
                   
-                  <h1 class="hero-lead">CompetenceFinder</h1>
-                  <h4 class="h-alt hero-secondary" style="color: #ffffff;">Find the most relevant and skilled resources <br><br>
-                    for your specific needs</h4>
-                  <a href="#about" class="btn btn-light" style="margin-bottom: 100px;">Learn More</a>
+                  <h1 class="hero-lead">SkillBased Consulting</h1>
+                  <h4 class="h-alt hero-secondary" style="color: #ffffff;">Finding the relevant skills and competences for specific needs
+                    </h4>
+                  <!-- <a href="#about" class="btn btn-light">Learn More</a> -->
                   
                   <!-- Scroller -->
-                  <a href="#about" class="scroller">
+                  <!--<a href="#about" class="scroller">
                     <span class="scroller-text">scroll down</span>
                     <span class="linea-basic-magic-mouse"></span>
-                  </a>
+                  </a>--> 
 
                 </div><!-- / .hero-content -->
               </div><!-- / .hero-content-wrapper -->
@@ -164,48 +165,52 @@
           </div><!-- / .bg-overlay -->
         </div><!-- / #home -->
 
+       
+        <!-- ========== Portfolio Boxed - 1 Column - Krivee 25/01 ========== -->
+        
+        <section class="container section" style="padding-bottom: 50px;">
+          <div class="row" style="margin-bottom: 20px;">
+           <header class="sec-heading">
+             <h2 style="margin-bottom: 30px;">Working with the right skills</h2>
+           </header>
+           <div class="row" style="overflow: scroll-hidden;">
+               <div class="col-md-6 pfol-1">
+                 <blockquote>Businesses and organisations today are facing a high pace of change triggered by digitalization, increased competition, new technologies, regulation, 
+                   environmental concern, and now even global pandemics. It challenges established ways of working and operating, while introducing new opportunities and potential. <p></p>
+                  Skillbased Consulting is a partner in providing external resources with focus on finding the right skills, competences and experience needed in your transition.</p>
+                  By working with the right skillset of experienced consultants you will:</p>
+                  • Reduce project risk and improve outcome to target</p>
+                  • Increase efficiency in solving problems and delivering value</p>
+                  • Secure success in implementation of change projects</p> 
+               </div>
+               <div class="col-md-6 pfol-2">
+                 <blockquote>Specialists and consultants with operational and implementation experience are typically found as independent contractors or in small to mid-size niche firms. 
+                   If they are not in your network, it is very difficult to find them.<p></p>
+                  In our process, using digital profiling and matching tools, we proactively build and expand our skill and competence network based on our clients needs.</p>
+                  All steps of the process are skill-based, providing expert advice and delivery:</p>
+                  • Need analysis, done by senior consultants and industry experts</p>
+                  • Search and match, with skills and relevant experience in focus</p>
+                  • Quality assurance, by senior consultants as client responsible</p>
 
-        <!-- ========== About - Section ========== -->
-
-        <!--Klippte in denna från "Client" - skulle vilja grafiskt dela av elementen så att det inte blir så mycket textmassa... Fundera på hur...-->
-
-        <section id="about" class="container">
-          <div class="row section" style="padding: 100px 0px 50px;">
-            
-            <header class="sec-heading" style="margin: 0px 0px 30px;">
-              
-              <h2>Our consulting services model</h2>
-              <span class="subheading" style="display: none;">tessttestes</span>
-            </header>
-
-            <div class="col-md-6">
-              <blockquote>Turn to us as a partner for your complex resourcing needs. Whether you are looking for consultants, temporary employment or recruitment, we will use our network to find the competences that match your needs.
-            </div>
-            <div class="col-md-6">
-              <blockquote>Our senior partner and industry expert will support you in the process to analyze and define your specific need. Then we will search and match the most suitable consultants with the specific experience and skillset required.
-              
+                  </p>
+                  </p>
+                  </p>
+                  </p>
+        
+<!-- Kan man bryta av mellan sektionerna på något tydligare sätt? -->
+               </div>
             </div>
           </div><!-- / .row -->
-        </section><!-- / .container -->
+          </section>
 
-
-        <!-- ========== Portfolio Boxed - 1 Column ========== -->
-
-        <section class="container section portfolio-layout portfolio-1col-boxed" style="padding: 100px 0px;">
-          <div class="row">
-            <header class="sec-heading">
-              <h2>Our tools and methods</h2>
-              <span class="subheading">Our platform offers business and process tools for finding the best resources for the task</span>
-            </header>
-          </div><!-- / .row -->
-          
+        <section class="container section portfolio-layout portfolio-1col-boxed" style="padding: 0px 0px 100px 0px;">      
           <!-- Filters -->
-          <div class="row">
+          <div class="row" style="display: none;">
             <ul id="pfolio-filters" class="portfolio-filters">
               <li class="active"><a href="#" data-filter="*">All</a></li><!--koppla filter för varje kort i elementet-->
               <li><a href="#" data-filter=".consultants">Consultants</a></li><!--skapa filter för detta -->
               <li><a href="#" data-filter=".clients">Clients</a></li><!--skapa filter för detta -->
-              <li><a href="#" data-filter=".partners">Partners</a></li><!--Koppla detta filter till både Business Partner och Consultancies -->
+              <!--<li><a href="#" data-filter=".partners">Partners</a></li> <!--Koppla detta filter till både Business Partner och Consultancies-->
             </ul>
           </div>
 
@@ -213,54 +218,58 @@
             <div id="pfolio">
 
               <!-- Item 1 -->
-              <figure class="portfolio-item print">
-                <div class="col-md-7 no-gap img-wrapper">
-                  <img src="assets/images/2020-09-29.png" alt="Project Example">
-                </div>
-                <figcaption class="col-md-5 no-gap">
-                  <h3>Consultants</h3>
-                  <h5 class="subheading">Join our skilled network</h5>
-                  <p>Sign up and register for our free tool Candybase, to manage your career history and create custom profiles/CVs to present your skillsets. Join our freelance expert network and put your skills to use.</p>
-                  <a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn">Register here</a><!--koppla knappen till Candybase registration page -->
-                </figcaption>
-              </figure><!-- / .portfolio-item -->
-
-              <!-- Item 2 -->
-              <figure class="portfolio-item webdesing">
+              <figure class="portfolio-item clients">
                 <div class="col-md-7 no-gap img-wrapper pull-right">
-                  <img src="assets/images/pictures/men-shake-hands-at-business-meeting-9A3QNL5.jpg" alt="Project Example">
+                  <img src="assets/images/PortBox-My-Agency/men-shake-hands-at-business-meeting-9A3QNL5.jpg" alt="Project Example">
                 </div>
                 <figcaption class="col-md-5 no-gap pull-left">
                   <h3>Clients</h3>
                   <h5 class="subheading">Find the right consultant</h5>
-                  <p>Contact us to find the best matching skills to your need. We will help you to define your need and match that requirement to find the best available skilled professional. And we will secure delivery and follow up on results.</p>
-                  <a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn">Contact us</a><!-- koppla knappen till "Contact us" längre ner på sidan -->
+                  <p>Find the most relevant skills that match your needs and requirements.</p>
+                    <p>First step is to clearly define your need. We skillfully take you from need definition, securing delivery, follow up on results and adjust as your needs evolve.</p>
+                  <a href="#contact" class="btn-ghost btn-small view-btn">Contact us</a><!-- kopplad till "Contact us" formuläret längre ner på sidan -->
+                </figcaption>
+              </figure><!-- / .portfolio-item -->
+
+              <!-- Item 2 -->
+              <figure class="portfolio-item consultants">
+                <div class="col-md-7 no-gap img-wrapper">
+                  <img src="assets/images/PortBox-My-Agency/Screenshot 2021-01-22 115823.png" alt="Project Example">
+                </div>
+                <figcaption class="col-md-5 no-gap">
+                  <h3>Consultants</h3>
+                  <h5 class="subheading">Join our skillbased network</h5>
+                  <p>Register for free access to our profile tool, to manage your career history with all skills and competences you have acquired. You can use it for all consulting or recruitment purposes, making unlimited custom profiles/CVs. </p>Get started easily by importing your LinkedIn profile.</p>
+                  <a href="/new/candidate/" class="btn-ghost btn-small view-btn">Register here</a>
+                  
+                  <!--koppla knappen till Candybase registration page -->
+                
                 </figcaption>
               </figure><!-- / .portfolio-item -->
 
               <!-- Item 3 -->
-              <figure class="portfolio-item photo">
+              <figure class="portfolio-item partners" style="display: none;">
                 <div class="col-md-7 no-gap img-wrapper">
-                  <img src="assets/images/pictures/working-on-computer-Z4B9Q44.jpg" alt="Project Example">
+                  <img src="assets/images/PortBox-My-Agency/working-on-computer-Z4B9Q44.jpg" alt="Project Example">
                 </div>
                 <figcaption class="col-md-5 no-gap">
-                  <h3>Senior Partner</h3>
+                  <h3>Senior Consultant</h3>
                   <h5 class="subheading">Leverage your expertese and network </h5>
                   <p>Partner with us to deliver expert solutions in your specific business or industry arena. Using our platform and tools, you will be able to leverage your expertese and capacity to deliver quality advice and solutions. </p>
-                  <a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn">Contact us</a><!-- koppla knappen till "Contact us" längre ner på sidan -->
+                  <a href="#contact" class="btn-ghost btn-small view-btn">Contact us</a><!-- koppla knappen till "Contact us" längre ner på sidan -->
                 </figcaption>
               </figure><!-- / .portfolio-item -->
 
               <!-- Item 4 -->
-              <figure class="portfolio-item webdesing">
+              <figure class="portfolio-item partners" style="display: none;">
                 <div class="col-md-7 no-gap img-wrapper pull-right">
-                  <img src="assets/images/networking.png" alt="Project Example">
+                  <img src="assets/images/PortBox-My-Agency/pexels-edmond-dantès-4344860.jpg" alt="Project Example">
                 </div>
                 <figcaption class="col-md-5 no-gap pull-left">
                   <h3>Consultancies</h3>
                   <h5 class="subheading">Grow your proposition</h5>
-                  <p>Our tools are designed to support the consulting business process. And with access to our growing network of expert professionals, you can grow your business and expand your proposition.</p>
-                  <a href="portfolio-single-1.html" class="btn-ghost btn-small view-btn">Contact us</a><!-- koppla knappen till "Contact us" längre ner på sidan -->
+                  <p>Our tools are designed to support the consulting business process. And with access to our growing network of expert professionals, you can grow your business and widen your proposition.</p>
+                  <a href="#contact" class="btn-ghost btn-small view-btn">Contact us</a><!-- koppla knappen till "Contact us" längre ner på sidan -->
                 </figcaption>
               </figure><!-- / .portfolio-item -->
 
@@ -273,7 +282,7 @@
         <!-- ========== Who Are You? - 4 Columns ========== -->
 
         <div class="gray-bg sm-city-bg " >
-          <section class="container section team-4col" style="padding: 100px 0px 200px 0px;">
+          <section class="container section team-4col" style="display: none;">
             <div class="row">
               
               <header class="sec-heading" style="margin: 0px 0px 100px 0px;">
@@ -288,15 +297,15 @@
 
                   <!-- Image -->
                   <div class="t-image" >                  
-                    <img src="assets/images/CandidateCard.png" alt="Team Member" class="img-responsive"> <!--ändra texten i bilden till CONSULTANTS -->
-                    <div class="t-description" style="padding: 0px 30px 0px;">
-                      <div class="content-wrapper" style="padding: 20px 0px">
-                        <p style="margin: 0;">Are you a freelance consultant looking for assignments that leverage your competences? Use our tool to maintain your career history of experiences and skillsets, and create customized profiles/CVs for each purpose.</p>
+                    <img src="assets/images/WhoCard/ConsultantCard.png" alt="Team Member" class="img-responsive"> 
+                    <div class="t-description" style="padding: 30px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 20px 0px 20px">
+                        <p >Are you a freelance consultant looking for assignments that leverage your competences? Use our tool to maintain your career history of experiences and skillsets, and create customized profiles/CVs for each purpose.</p>
                         <a href="pages/Candidate.html">Learn more <span class="linea-arrows-slim-right"></span></a>
                       </div>
                     </div>
                   </div>
-
+                  
                   <!-- Info -->
                   <div class="t-info" style="display:none">
                     <h4 class="t-name">Philip Lee</h4>
@@ -319,11 +328,11 @@
 
                   <!-- Image -->
                   <div class="t-image" >
-                    <img src="assets/images/ClientCard.png" alt="Team Member" class="img-responsive">
-                    <div class="t-description">
-                      <div class="content-wrapper" style="padding: 30px 0px 50px">
+                    <img src="assets/images/WhoCard/ClientCard.png" alt="Team Member" class="img-responsive">
+                    <div class="t-description" style="padding: 35px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 40px 0px 5px">
                         <p>Are you looking for expert advice and increased delivery capacity? We are experts in finding the most relevant and skilled consultant available for your specific challenges.</p>
-                        <a href="pages/Clients.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                        <a href="pages/Clients.html">Learn more <span class="linea-arrows-slim-right"></span></a> 
                       </div>
                     </div>
                   </div>
@@ -345,16 +354,16 @@
 
 
               <!-- Senior Partner -->
-              <div class="col-lg-3 col-md-6 ">
+              <div class="col-lg-3 col-md-6">
                 <div class="t-item t-card-color">
 
                   <!-- Image -->
                   <div class="t-image" >
-                    <img src="assets/images/SeniorPartnerCard.png" alt="Team Member" class="img-responsive">
-                    <div class="t-description">
-                      <div class="content-wrapper" style="padding: 30px 0px 30px;">
-                        <p>Are you an industry or business expert with great track record, working as an independent advisor? Become a Senior Partner and together we can build our business on the platform.</p>
-                        <a href="pages/SeniorPartner.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                    <img src="assets/images/WhoCard/SeniorPartnerCard.png" alt="Team Member" class="img-responsive">
+                    <div class="t-description" style="padding: 35px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 30px 0px 10px;">
+                        <p>Are you an industry or business expert with great track record, working as an independent advisor? Become a senior partner and together we can build our business on the platform.</p>
+                        <a href="pages/SeniorPartner.html">Learn more <span class="linea-arrows-slim-right"></span></a> 
                       </div>
                     </div>
                   </div>
@@ -381,11 +390,11 @@
 
                   <!-- Image -->
                   <div class="t-image" >
-                   <img src="assets/images/ConsultanciesCard.png" alt="Team Member" class="img-responsive">
-                   <div class="t-description">
-                      <div class="content-wrapper">
+                   <img src="assets/images/WhoCard/ConsultanciesCard.png" alt="Team Member" class="img-responsive">
+                   <div class="t-description" style="padding: 45px 30px 0px;">
+                      <div class="content-wrapper" style="padding: 35px 0px 20px;">
                         <p>Are you a consulting firm and want to grow your business? Our tools support your business process and opens our freelance network to complementary resources when you need it.</p>
-                        <a href="pages/Consultancies.html">Learn more <span class="linea-arrows-slim-right"></span></a>
+                        <a href="pages/Consultancies.html">Learn more <span class="linea-arrows-slim-right"></span></a> 
                       </div>
                     </div>
                   </div>
@@ -422,7 +431,7 @@
                 <div class="form-wrapper">
                   <div class="from-header">
                     <h2>Contact us</h2>
-                    <p>Thank you for your interest! Use the form to contact us with any questions or propositions.</p>
+                    <p>How can we help you? Please contact us with any questions by filling out the form below and we will get back to you shortly.</p>
                   </div>
 
                   <form action="../assets/contact-form/contact-form.php" method="POST" class="form-minimal form-ajax">
@@ -470,9 +479,8 @@
 
 
         <!-- ========== Learn More About Us - Cards - Krivee / Display ========== -->
-   <!-- TA BORT ELEMENTET! -->
 
-        <div class="gray-bg sm-city-bg">
+        <div class="gray-bg sm-city-bg" style="display: none;">
           <section class="container ft-cards">
             <div class="row section" style="padding:80px 0px;">
               
@@ -606,7 +614,7 @@
               <div class="row">
                 
                 <div class="col-md-6">
-                  <small>&copy; 2015 Definity. Made by <a class="no-style-link" href="http://themeforest.net/user/octarinethemes" target="_self">OctarineThemes</a></small>
+                  <small>&copy; 2022 <a class="no-style-link" href="http://www.skillbased.net" target="_self">SkillBased Consulting AB</a></small>
                 </div>
 
                 <div class="col-md-6">
