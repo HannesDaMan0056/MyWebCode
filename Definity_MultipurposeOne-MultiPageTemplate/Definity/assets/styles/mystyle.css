@@ -125,6 +125,15 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
   font-weight: 500;
 }
 
+.white-header {
+  margin-top: 0;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+}
+
 .navbar-blue {
   border-bottom: none;
   background: #012136;
