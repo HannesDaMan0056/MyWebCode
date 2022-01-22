@@ -2949,6 +2949,10 @@ fieldset[disabled] .form-control:hover {
   color: #777;
 }
 
+.navbar-inverse .navbar-nav.nav-white li a {
+  color: #c4c4c4;
+}
+
 .navbar-inverse .navbar-nav li a:hover {
   color: #ececec;
 }
