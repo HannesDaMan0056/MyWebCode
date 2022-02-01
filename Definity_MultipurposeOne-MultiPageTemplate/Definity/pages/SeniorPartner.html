@@ -123,7 +123,7 @@
                   <ul class="dropdown-menu">
                     <li class="dropdown-header">SkillBased, for:</li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="/new/candidate/" target="_blank">Consultants</a></li>
+                    <li><a href="/candidate/" target="_blank">Consultants</a></li>
                     <li><a href="/agent/" target="_blank">Agents</a></li>                    
                   </ul>
                 </li><!-- / Register / Log In -->
@@ -238,7 +238,7 @@
                   <p>You can use the form below to contact us if you are interested in finding out more about the Senior Consultant role.</p>
                 </div>
 
-                <form action="../assets/contact-form/contact-form.php" method="POST" class="form-minimal form-ajax">
+                <form class="form-ajax" action="/api/leads" method="POST" id="EmailForm" name="EmailForm">
 
                   <!-- Name -->
                   <div class="form-group">
