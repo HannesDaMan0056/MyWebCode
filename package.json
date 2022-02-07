@@ -4,7 +4,7 @@
   "description": "landing page",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -p 8005 ./Definity_MultipurposeOne-MultiPageTemplate/Definity -o /My-agency2-mp.html",
+    "start": "http-server -p 8005 ./Definity_MultipurposeOne-MultiPageTemplate/Definity -o /index.html",
     "update": "npx npm-check-updates -u && npm install && npm audit fix"
   },
   "author": "",
