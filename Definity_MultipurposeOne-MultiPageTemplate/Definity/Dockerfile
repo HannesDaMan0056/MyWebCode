@@ -5,8 +5,8 @@ RUN mkdir -p /usr/share/nginx/html
 COPY --chown=root favicon.ico /usr/share/nginx/html/favicon.ico
 COPY --chown=root pages /usr/share/nginx/html/pages
 COPY --chown=root assets /usr/share/nginx/html/assets
-COPY --chown=root My-agency2-mp.html /usr/share/nginx/html/index.html
-COPY --chown=root My-agency2-mp.html /usr/share/nginx/html/My-agency2-mp.html
+COPY --chown=root index.html /usr/share/nginx/html/index.html
+COPY --chown=root index.html /usr/share/nginx/html/home.html
 RUN chmod 755 -R /usr/share/nginx/html
 
     
