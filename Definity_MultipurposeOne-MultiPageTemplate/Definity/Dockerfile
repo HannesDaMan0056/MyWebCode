@@ -6,6 +6,7 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --chown=root favicon.ico /usr/share/nginx/html/favicon.ico
 COPY --chown=root pages /usr/share/nginx/html/pages
 COPY --chown=root assets /usr/share/nginx/html/assets
+COPY --chown=root documents /usr/share/nginx/html/documents
 COPY --chown=root index.html /usr/share/nginx/html/index.html
 COPY --chown=root index.html /usr/share/nginx/html/home.html
 COPY --chown=root client.html /usr/share/nginx/html/client.html
