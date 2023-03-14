@@ -12,6 +12,7 @@ COPY --chown=root index.html /usr/share/nginx/html/home.html
 COPY --chown=root client.html /usr/share/nginx/html/client.html
 COPY --chown=root home-consultant.html /usr/share/nginx/html/home-consultant.html
 COPY --chown=root senior-consultant.html /usr/share/nginx/html/senior-consultant.html
+COPY --chown=root blog /usr/share/nginx/html/blog
 RUN chmod 755 -R /usr/share/nginx/html
 
     
