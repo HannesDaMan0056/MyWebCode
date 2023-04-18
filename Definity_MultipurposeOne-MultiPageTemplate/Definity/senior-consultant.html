@@ -48,9 +48,9 @@
         
         <!-- ========== Navigation ========== -->
 
-        <nav class="navbar  navbar-fixed-top mega navbar-inverse navbar-trans" role="navigation">
+        <nav class="navbar navbar-fixed-top mega navbar-inverse navbar-trans fixed-nav navbar-small" role="navigation">
           <div class="container">
-            <div class="navbar-header" style="width: 28%;">
+            <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -64,13 +64,13 @@
 
 
             <!-- Navbar Links -->
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="navbar" class="navbar-collapse collapse ">
               <ul class="nav navbar-nav nav-white">
                 
                 <li><a href="/">Home</a></li>     <!--  this one loses it´s hover over effect on Canidate and My-Agency2! -->
                 <li><a href="/client"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
                 <li><a href="/home-consultant"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
-                <li><a href="#pagetitel.html"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Senior Consultant</a></li>
+                <li class="selected"><a href="#pagetitel.html"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Senior Consultant</a></li>
                 
                 <!-- Who are you? -->
                 <li class="dropdown" style="display: none;">
@@ -115,11 +115,11 @@
               </ul> <!-- / Navbar Links -->
 
               <!-- Navbar Links Right -->
-              <ul class="nav navbar-nav nav-white navbar-right">
+              <ul class="nav navbar-nav navbar-right">
 
                 <!-- Register / Log In -->
                 <li class="dropdown">
-                  <a href="#home" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Register/Log in<span class="caret"></span></a>
+                  <a href="#home" class="dropdown-toggle selected" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Log in / Register<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li class="dropdown-header">SkillBased, for:</li>
                     <li role="separator" class="divider"></li>
@@ -138,7 +138,7 @@
 
         <!-- ========== Page Title ========== -->
 
-        <header class="page-title pt-large pt-dark sm-city-bg" id="pagetitle">
+        <header class="page-title pt-large pt-dark sm-city-bg" id="pagetitle" style="display: none;">
           <div class="container">
               <div class="row">
 
@@ -160,8 +160,8 @@
 
         <!-- ========== Feature - Cards 2 ========== -->
 
-        <div class="gray-bg">
-          <section class="container section ft-cards-2" style="padding: 100px 0px;">
+        <div class="gray-bg" style="padding-top: 70px;">
+          <section class="container section ft-cards-2" style="padding: 60px 0px 10px;">
             <div class="row">
               
               <header class="sec-heading ws-s">
@@ -227,7 +227,7 @@
 
        <!-- ============ Contact Senior Partner edition ============ -->
 
-       <section id="contact" class="contact-3 sm-city-bg">
+       <section id="contact" class="contact-3 gray-bg">
         <div class="container">
           <div class="row">
             
@@ -242,28 +242,27 @@
 
                   <!-- Name -->
                   <div class="form-group">
-                    <input type="text" name="name" id="name-contact-3" class="form-control validate-locally">
+                    <input type="text" name="name" id="name-contact-3" class="form-control validate-locally" placeholder="Enter your name">
                     <label for="name-contact-3">Name *</label>
                     <span class="pull-right alert-error"></span>
                   </div>
 
                   <!-- Email -->
                   <div class="form-group">
-                    <input type="email" name="email" id="email-contact-3" class="form-control validate-locally">
+                    <input type="email" name="email" id="email-contact-3" class="form-control validate-locally" placeholder="Enter your email">
                     <label for="email-contact-3">Email *</label>
                     <span class="pull-right alert-error"></span>
                   </div>
 
                   <!-- Phone -->
                   <div class="form-group">
-                    <input type="tel" name="phone" id="phone-contact-3" class="form-control">
+                    <input type="tel" name="phone" id="phone-contact-3" class="form-control" placeholder="Enter your phone number">
                     <label for="email-contact-3">Phone</label>
                   </div>
 
                   <!-- Message -->
                   <div class="form-group">
-                    <p>Write a short message or question to us, to initiate the dialogue</p>
-                    <textarea class="form-control" name="message" id="message-contact-1" rows="5"></textarea>
+                    <textarea class="form-control" name="message" id="message-contact-1" rows="5" placeholder="Write a short message or question to us, to initiate the dialogue"></textarea>
                     <label for="message-contact-1">Message *</label>
                   </div>
 

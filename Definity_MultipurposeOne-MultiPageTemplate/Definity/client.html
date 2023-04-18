@@ -50,9 +50,9 @@
 
   <!-- ========== Navigation ========== -->
 
-  <nav class="navbar  navbar-fixed-top mega navbar-inverse navbar-trans" role="navigation">
+  <nav class="navbar navbar-fixed-top mega navbar-inverse navbar-trans fixed-nav navbar-small" role="navigation">
     <div class="container">
-      <div class="navbar-header" style="width: 28%;">
+      <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
           aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -72,7 +72,7 @@
         <ul class="nav navbar-nav nav-white">
 
                 <li><a href="/">Home</a></li>     <!--  this one loses it´s hover over effect on Canidate and My-Agency2! -->
-                <li><a href="#pagetitel"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
+                <li class="selected"><a href="#pagetitel"><span class="et-briefcase" style="margin: 0px 7px 0px 0px;"></span>Client</a></li>
                 <li><a href="/home-consultant"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Consultant</a></li>
                 <li><a href="/senior-consultant"><span class="et-traget" style="margin: 0px 7px 0px 0px;"></span>Senior Consultant</a></li>
 
@@ -126,7 +126,7 @@
 
                 <!-- Register / Log In -->
                 <li class="dropdown">
-                  <a href="#home" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Register/Log in<span class="caret"></span></a>
+                  <a href="#home" class="dropdown-toggle selected" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Log in / Register<span class="caret"></span></a>
             <ul class="dropdown-menu">
                     <li class="dropdown-header">SkillBased, for:</li>
                     <li role="separator" class="divider"></li>
@@ -146,7 +146,7 @@
 
   <!-- ========== Page Title ========== -->
 
-  <header class="page-title pt-large pt-dark sm-city-bg" style="padding: 160px 0px;" id="pagetitle">
+  <header class="page-title pt-large pt-dark sm-city-bg" id="pagetitle">
     <div class="container">
       <div class="row">
 
@@ -170,9 +170,9 @@
   <!-- ========== About - Section ========== -->
 
   <section id="about" class="container">
-    <div class="row section" style="padding: 100px 0px 50px;">
+    <div class="row section" style="padding: 40px 0px 20px;">
       <header class="sec-heading">
-        <h2>SkillBased Consulting service model</h2>
+        <h2 style="padding-bottom: 10px;">SkillBased Consulting service model</h2>
       </header>
 
       <div class="col-md-6">
@@ -221,8 +221,9 @@
 
 
   <!-- ========== Bullet Section ========== -->
-  <section id="about" class="container">
-    <div class="row section" style="padding: 100px 0px 50px;">
+  <section id="about" >
+    <div class="container ">
+    <div class="row section" style="padding: 10px 0px 5px;">
 
       <header class="sec-heading" style="margin: 0px 0px 30px;">
 
@@ -278,7 +279,8 @@
               </blockquote>
             </div>
           </div><!-- / .row -->
-        </section><!-- / .container -->
+        </div><!-- / .container -->
+        </section>
 
 
 
@@ -384,43 +386,42 @@
 
         <!-- ========== Contact ========== -->
 
-        <section id="contact" class="contact-3 sm-city-bg">
+        <section id="contact" class="contact-3 gray-bg">
           <div class="container">
             <div class="row">
 
               <div class="col-md-12 col-lg-offset-2 col-lg-8">
-                <div class="form-wrapper">
+                <div class="form-wrapper wow fadeInUp" data-wow-duration="1.1s">
                   <div class="from-header">
                     <h2>Need help with resourcing?</h2>
                     <p>Let us know your needs and specific challenge, to find out how we can help you.</p>
-      </div>
+                  </div>
 
                   <form class="form-ajax" action="/api/leads" method="POST" id="EmailForm" name="EmailForm">
 
               <!-- Name -->
               <div class="form-group">
-                <input type="text" name="name" id="name-contact-3" class="form-control validate-locally">
+                <input type="text" name="name" id="name-contact-3" class="form-control validate-locally" placeholder="Enter your name">
                 <label for="name-contact-3">Name *</label>
                 <span class="pull-right alert-error"></span>
               </div>
 
               <!-- Email -->
               <div class="form-group">
-                <input type="email" name="email" id="email-contact-3" class="form-control validate-locally">
+                <input type="email" name="email" id="email-contact-3" class="form-control validate-locally" placeholder="Enter your email">
                 <label for="email-contact-3">Email *</label>
                 <span class="pull-right alert-error"></span>
               </div>
 
               <!-- Phone -->
               <div class="form-group">
-                <input type="tel" name="phone" id="phone-contact-3" class="form-control">
+                <input type="tel" name="phone" id="phone-contact-3" class="form-control" placeholder="Enter your phone number"> 
                 <label for="email-contact-3">Phone</label>
               </div>
 
               <!-- Message -->
               <div class="form-group">
-                <p>Briefly describe your situation or question.</p>
-                <textarea class="form-control" name="message" id="message-contact-1" rows="5"></textarea>
+                <textarea class="form-control" name="message" id="message-contact-1" rows="5" placeholder="Briefly describe your situation or question"></textarea>
                 <label for="message-contact-1">Message *</label>
               </div>
 
