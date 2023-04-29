@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-old": "http-server -p 8005 ./Definity_MultipurposeOne-MultiPageTemplate/Definity -o /index.html",
-    "start": "cd src && live-server --port=8006",
+    "start": "cd Definity_MultipurposeOne-MultiPageTemplate/Definity && live-server --port=8006",
     "update": "npx npm-check-updates -u && npm install && npm audit fix"
   },
   "author": "",
