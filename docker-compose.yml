@@ -6,4 +6,4 @@ services:
     build:
       context: Definity_MultipurposeOne-MultiPageTemplate/Definity
     ports:
-    - 80:80
+    - 8004:80
