@@ -1,4 +1,4 @@
-Build
+Build Legacy Homepage (Html only)
 ===========
 
 
@@ -15,3 +15,7 @@ npm run start
 ```
 Open browser in
 http://127.0.0.1:8006/why-skillbased.html
+
+
+# Svelte Kit
+
