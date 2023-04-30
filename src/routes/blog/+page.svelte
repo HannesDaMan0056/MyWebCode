@@ -24,7 +24,7 @@
         </p>
         <div class="flex justify-between items-center">
           <div class="flex items-center space-x-4">
-            <img class="w-7 h-7 rounded-full" src="/assets/images/ProfilePictures/kristian.jpg" alt="Kristian Veem">
+            <img class="w-7 h-7 rounded-full" src="/images/ProfilePictures/kristian.jpg" alt="Kristian Veem">
             <span class="font-medium dark:text-white">
                           Kristian Veem
                       </span>
@@ -54,7 +54,7 @@
         </p>
         <div class="flex justify-between items-center">
           <div class="flex items-center space-x-4">
-            <img class="w-7 h-7 rounded-full" src="/assets/images/ProfilePictures/samuel.jpg" alt="Samuel Veem">
+            <img class="w-7 h-7 rounded-full" src="/images/ProfilePictures/samuel.jpg" alt="Samuel Veem">
             <span class="font-medium dark:text-white">
                           Samuel Veem
                       </span>
@@ -84,7 +84,7 @@
         </p>
         <div class="flex justify-between items-center">
           <div class="flex items-center space-x-4">
-            <img class="w-7 h-7 rounded-full" src="/assets/images/ProfilePictures/hannes.png" alt="Johannes Veem">
+            <img class="w-7 h-7 rounded-full" src="/images/ProfilePictures/hannes.png" alt="Johannes Veem">
             <span class="font-medium dark:text-white">
                           Johannes Veem
                       </span>
@@ -113,7 +113,7 @@
         </p>
         <div class="flex justify-between items-center">
           <div class="flex items-center space-x-4">
-            <img class="w-7 h-7 rounded-full" src="/assets/images/ProfilePictures/kristian.jpg" alt="Kristian Veem">
+            <img class="w-7 h-7 rounded-full" src="/images/ProfilePictures/kristian.jpg" alt="Kristian Veem">
             <span class="font-medium dark:text-white">
                           Kristian Veem
                       </span>
