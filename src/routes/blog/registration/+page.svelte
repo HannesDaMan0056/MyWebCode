@@ -1,48 +1,34 @@
 <script>
   import Post from "$lib/posts/Post.svelte";
-  import { kristian } from "$lib/posts";
+  import { posts } from "$lib/posts";
 </script>
 
-<Post author={kristian} pubdate="2023-05-01">
-  <p>In today's rapidly changing business landscape, organizations face an increasing need for external resources with the right skills, competences, and experience to navigate
-    these changes successfully. This is where Skillbased Consulting comes in as a valuable partner. We specialize in finding the right experts with the necessary skill sets and experience
-    to help businesses and organizations transition smoothly.</p>
+<Post post={posts["registration"]}>
   <p>
-    By adding resources with the relevant skill set and experience from working with the changes, you can reduce project risk, improve outcome to target, increase efficiency in solving
-    problems, and deliver value, ultimately securing success in implementation.
+    If you're interested in creating a free Skillbased consultant account, registration is the first step. Here's a simple guide on how to create an account through registration:
   </p>
+  <ol>
+    <li>
+      Go to the Skillbased website and hover over "Register" or "Sign up" in the top navigation menu.
+    </li>
+    <li>
+      Click on "Consultants" in the dropdown menu that appears.
+      <figure><img src="/assets/images/Skillbased/registration.png" alt="registration">
+        <figcaption></figcaption>
+      </figure>
+    </li>
+    <li>
+      Fill in your first name, last name, email address, and create a strong password. Read and agree to the User Agreement & Privacy Policy.
+    </li>
+    <li>
+      Confirm your email address through the email verification sent to the email you provided during registration.
+    </li>
+    <li>
+      Once your email is verified, log in and start using the platform.
+    </li>
+  </ol>
   <p>
-    At Skillbased Consulting, we work with specialists and consultants with operational and implementation experience, typically found as independent contractors or in small to mid-size
-    niche firms. We have built a network to find them, providing tools to display and make their specific skills searchable and presentable.
+    Creating an account on Skillbased as a consultant is quick and simple. All you need is your first name, last name, email address, and a strong password. After confirming your email
+    address, you can login and start using the platform for free.
   </p>
-  <p>
-    We use digital profiling and matching tools in our process, proactively building and expanding our skill and competence network based on client needs and requirements. Our service
-    model is based on skill-based delivery, providing expert advice and delivery through every step of the process. We conduct need analysis, search and match with skills and relevant
-    experience in focus, and provide quality assurance through senior consultants as client responsible.
-  </p>
-  <p class="bg-gray-100 font-medium p-2 text-xl leading-relaxed text-gray-800">
-    When working with Skillbased Consulting, you will be assigned a senior consultant with expert industry experience to advise and guide you throughout the process and service delivery.
-    We work closely with you to get a thorough understanding of your vision, goals, prerequisites, and requirements. Our goal is to deliver the most relevant skills based on your needs and
-    requirements.
-  </p>
-  <p>
-    At Skillbased Consulting, we recognize the challenges that niche consultants face in marketing their services and being found outside their network. We offer a free consultant
-    profiling tool that enables them to leverage their skills and keep building experience while ensuring our clients find them through their skills and competence.
-  </p>
-  <p>
-    Our digital profiling tools and processes proactively expand our network, focusing on skills and relevant experience to ensure quality matching. We strive to make the resourcing
-    process more efficient for all parties in the market, enabling value-added solutions for clients and flexible business models that help consultants expand their proposition and find
-    complementary resources when they own the client relationship.
-  </p>
-  <p>
-    Currently, we are building the competence network for clients in Financial Services, Banking, and Insurance, and if this is your area of expertise, we invite you to register to become
-    part of our network to get included in our search and matching.
-  </p>
-  <p>
-    In conclusion, the Skillbased Consulting approach is based on finding and matching the right skill sets and competences to meet the needs of our clients successfully. Whether you're a
-    business or a consultant, our goal is to deliver the most relevant skills based on your needs and requirements to help you navigate the ever-changing business landscape.
-  </p>
-  <figure><img src="/assets/images/PortBox-My-Agency/men-shake-hands-at-business-meeting-9A3QNL5.jpg" alt="">
-    <figcaption></figcaption>
-  </figure>
 </Post>

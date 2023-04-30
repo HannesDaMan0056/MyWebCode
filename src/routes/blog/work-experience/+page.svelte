@@ -1,48 +1,38 @@
 <script>
   import Post from "$lib/posts/Post.svelte";
-  import { kristian } from "$lib/posts";
+  import { posts } from "$lib/posts";
 </script>
 
-<Post author={kristian} pubdate="2023-05-01">
-  <p>In today's rapidly changing business landscape, organizations face an increasing need for external resources with the right skills, competences, and experience to navigate
-    these changes successfully. This is where Skillbased Consulting comes in as a valuable partner. We specialize in finding the right experts with the necessary skill sets and experience
-    to help businesses and organizations transition smoothly.</p>
+<Post post={posts["work-experience"]}>
   <p>
-    By adding resources with the relevant skill set and experience from working with the changes, you can reduce project risk, improve outcome to target, increase efficiency in solving
-    problems, and deliver value, ultimately securing success in implementation.
+    When registering your work experiences and projects on Skillbased, it's important to be as detailed as possible and keep them updated. Here's what you need to know:
   </p>
+  <ol>
+    <li>
+      The Work Experience section is where you can add your employment and main placeholder with information about your employer and role in the company. Additionally, you can add
+      subordinated activities to a job, either internal or external, which are called projects.
+    </li>
+    <li>
+      Each job and project is tagged with industry, functional area, and career level to increase accuracy in matching and presenting your specific competences.
+    </li>
+    <li>
+      Tag skills to each job or project where the skill was used and acquired. This will help others understand your areas of expertise and increase your chances of being matched with
+      relevant projects and opportunities.
+    </li>
+    <li>
+      If you are employed as a consultant, it is important to enter consulting assignments as external projects, performed in the clients' industry and organization.
+    </li>
+    <li>
+      In the job or project description field, write briefly about your role and responsibilities, and give more focus to the results of your achievements and contribution. This will
+      help potential clients understand the impact you've had in your past roles and projects.
+    </li>
+    <li>
+      Skills can be self-rated with the current level of expertise and range of years practiced. You can update and administer skills in the Skill section, where you can also overview
+      which jobs or projects you have tagged them to.
+    </li>
+  </ol>
   <p>
-    At Skillbased Consulting, we work with specialists and consultants with operational and implementation experience, typically found as independent contractors or in small to mid-size
-    niche firms. We have built a network to find them, providing tools to display and make their specific skills searchable and presentable.
+    By following these guidelines and keeping your work experiences and projects updated, you'll increase your chances of being matched with relevant opportunities and showcasing your
+    specific competences to potential clients.
   </p>
-  <p>
-    We use digital profiling and matching tools in our process, proactively building and expanding our skill and competence network based on client needs and requirements. Our service
-    model is based on skill-based delivery, providing expert advice and delivery through every step of the process. We conduct need analysis, search and match with skills and relevant
-    experience in focus, and provide quality assurance through senior consultants as client responsible.
-  </p>
-  <p class="bg-gray-100 font-medium p-2 text-xl leading-relaxed text-gray-800">
-    When working with Skillbased Consulting, you will be assigned a senior consultant with expert industry experience to advise and guide you throughout the process and service delivery.
-    We work closely with you to get a thorough understanding of your vision, goals, prerequisites, and requirements. Our goal is to deliver the most relevant skills based on your needs and
-    requirements.
-  </p>
-  <p>
-    At Skillbased Consulting, we recognize the challenges that niche consultants face in marketing their services and being found outside their network. We offer a free consultant
-    profiling tool that enables them to leverage their skills and keep building experience while ensuring our clients find them through their skills and competence.
-  </p>
-  <p>
-    Our digital profiling tools and processes proactively expand our network, focusing on skills and relevant experience to ensure quality matching. We strive to make the resourcing
-    process more efficient for all parties in the market, enabling value-added solutions for clients and flexible business models that help consultants expand their proposition and find
-    complementary resources when they own the client relationship.
-  </p>
-  <p>
-    Currently, we are building the competence network for clients in Financial Services, Banking, and Insurance, and if this is your area of expertise, we invite you to register to become
-    part of our network to get included in our search and matching.
-  </p>
-  <p>
-    In conclusion, the Skillbased Consulting approach is based on finding and matching the right skill sets and competences to meet the needs of our clients successfully. Whether you're a
-    business or a consultant, our goal is to deliver the most relevant skills based on your needs and requirements to help you navigate the ever-changing business landscape.
-  </p>
-  <figure><img src="/assets/images/PortBox-My-Agency/men-shake-hands-at-business-meeting-9A3QNL5.jpg" alt="">
-    <figcaption></figcaption>
-  </figure>
 </Post>

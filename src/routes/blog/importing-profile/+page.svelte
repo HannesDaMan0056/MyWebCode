@@ -1,48 +1,67 @@
 <script>
   import Post from "$lib/posts/Post.svelte";
-  import { kristian } from "$lib/posts";
+  import { posts } from "$lib/posts";
 </script>
 
-<Post author={kristian} pubdate="2023-05-01">
-  <p>In today's rapidly changing business landscape, organizations face an increasing need for external resources with the right skills, competences, and experience to navigate
-    these changes successfully. This is where Skillbased Consulting comes in as a valuable partner. We specialize in finding the right experts with the necessary skill sets and experience
-    to help businesses and organizations transition smoothly.</p>
+<Post post={posts["importing-profile"]}>
   <p>
-    By adding resources with the relevant skill set and experience from working with the changes, you can reduce project risk, improve outcome to target, increase efficiency in solving
-    problems, and deliver value, ultimately securing success in implementation.
+    Are you looking to quickly populate your Skillbased profile with your LinkedIn information? Here's a step-by-step guide on how to do it:
   </p>
+  <ol>
+    <li>
+      Log into LinkedIn and view your profile.
+    </li>
+    <li>
+      In the header section, click the 'More' button and select 'Save to PDF'.
+    </li>
+    <li>
+      Save the profile, and make sure to remember the filename and path.
+    </li>
+    <li>
+      Go back to Skillbased and navigate to the 'Settings' section.
+    </li>
+    <li>
+      Select 'Upload LinkedIn PDF Profile'.
+      <figure><img src="/assets/images/Skillbased/importing-profile.png" alt="registration">
+        <figcaption></figcaption>
+      </figure>
+    </li>
+    <li>
+      Look for and select the LinkedIn profile you just saved.
+    </li>
+    <li>
+      After a few seconds, relevant data that was possible to capture will be added to the relevant sections of your Skillbased profile. You'll be able to detect what data was added
+      through the orange frame.
+    </li>
+    <li>
+      The imported data sections need to be updated and completed with certain meta-data (industry, functional area, etc.) before you can save it.
+    </li>
+    <li>
+      Update and save all data fields that you want to reuse, remove the ones that you don't want to use.
+    </li>
+    <li>
+      You can repeat the import process anytime. Data circled by the orange frame will not be saved to your profile until you update and save it.
+    </li>
+  </ol>
   <p>
-    At Skillbased Consulting, we work with specialists and consultants with operational and implementation experience, typically found as independent contractors or in small to mid-size
-    niche firms. We have built a network to find them, providing tools to display and make their specific skills searchable and presentable.
+    Sections that typically could be updated from the LinkedIn profile are:
   </p>
+  <ul>
+    <li>
+      Profile (name and contact information, if the fields are empty)
+    </li>
+    <li>
+      Work Experience (title, name of company, start and end date, description)
+    </li>
+    <li>
+      Education (name of institution, start and end date)
+    </li>
+    <li>Training (name of course/certification, issuing organization, issue date)
+      Skills (skill name)
+    </li>
+  </ul>
   <p>
-    We use digital profiling and matching tools in our process, proactively building and expanding our skill and competence network based on client needs and requirements. Our service
-    model is based on skill-based delivery, providing expert advice and delivery through every step of the process. We conduct need analysis, search and match with skills and relevant
-    experience in focus, and provide quality assurance through senior consultants as client responsible.
+    Please note that skills that are imported are not rated to skill level and years practiced, nor are they tagged to the project or work experience where it was practiced. You can update
+    the skills in the 'Skills' section and later tag them to each project or work experience where they were used and developed.
   </p>
-  <p class="bg-gray-100 font-medium p-2 text-xl leading-relaxed text-gray-800">
-    When working with Skillbased Consulting, you will be assigned a senior consultant with expert industry experience to advise and guide you throughout the process and service delivery.
-    We work closely with you to get a thorough understanding of your vision, goals, prerequisites, and requirements. Our goal is to deliver the most relevant skills based on your needs and
-    requirements.
-  </p>
-  <p>
-    At Skillbased Consulting, we recognize the challenges that niche consultants face in marketing their services and being found outside their network. We offer a free consultant
-    profiling tool that enables them to leverage their skills and keep building experience while ensuring our clients find them through their skills and competence.
-  </p>
-  <p>
-    Our digital profiling tools and processes proactively expand our network, focusing on skills and relevant experience to ensure quality matching. We strive to make the resourcing
-    process more efficient for all parties in the market, enabling value-added solutions for clients and flexible business models that help consultants expand their proposition and find
-    complementary resources when they own the client relationship.
-  </p>
-  <p>
-    Currently, we are building the competence network for clients in Financial Services, Banking, and Insurance, and if this is your area of expertise, we invite you to register to become
-    part of our network to get included in our search and matching.
-  </p>
-  <p>
-    In conclusion, the Skillbased Consulting approach is based on finding and matching the right skill sets and competences to meet the needs of our clients successfully. Whether you're a
-    business or a consultant, our goal is to deliver the most relevant skills based on your needs and requirements to help you navigate the ever-changing business landscape.
-  </p>
-  <figure><img src="/assets/images/PortBox-My-Agency/men-shake-hands-at-business-meeting-9A3QNL5.jpg" alt="">
-    <figcaption></figcaption>
-  </figure>
 </Post>

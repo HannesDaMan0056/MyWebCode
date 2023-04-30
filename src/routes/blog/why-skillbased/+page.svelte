@@ -1,9 +1,9 @@
 <script>
   import Post from "$lib/posts/Post.svelte";
-  import { kristian } from "$lib/posts";
+  import { posts } from "$lib/posts";
 </script>
 
-<Post author={kristian} pubdate="2023-05-01">
+<Post post={posts["why-skillbased"]}>
   <p>In today's rapidly changing business landscape, organizations face an increasing need for external resources with the right skills, competences, and experience to navigate
     these changes successfully. This is where Skillbased Consulting comes in as a valuable partner. We specialize in finding the right experts with the necessary skill sets and experience
     to help businesses and organizations transition smoothly.</p>
