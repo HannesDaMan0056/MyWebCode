@@ -16,7 +16,7 @@
                   </span>
           <span class="text-sm">May 2, 2023</span>
         </div>
-        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog/why-skillbased.html">Why Skillbased</a></h2>
+        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog/why-skillbased">Why Skillbased</a></h2>
         <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
           When working with Skillbased Consulting, you will be assigned a senior consultant with expert industry experience to advise and guide you throughout the process and service
           delivery. We work closely with you to get a thorough understanding of your vision, goals, prerequisites, and requirements. Our goal is to deliver the most relevant skills based on
@@ -29,7 +29,7 @@
                           Kristian Veem
                       </span>
           </div>
-          <a href="/blog/why-skillbased.html" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+          <a href="/blog/why-skillbased" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
             Read more
             <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
@@ -47,7 +47,7 @@
                   </span>
           <span class="text-sm">May 3, 2023</span>
         </div>
-        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog/registration.html">Registration</a></h2>
+        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog/registration">Registration</a></h2>
         <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
           If you're interested in creating a free Skillbased consultant account, registration is the first step. Here's a simple guide on how to create an account through registration: <br>
           Go to the Skillbased website and hover over "Register" or "Sign up" in the top navigation menu.
@@ -59,7 +59,7 @@
                           Samuel Veem
                       </span>
           </div>
-          <a href="/blog/registration.html" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+          <a href="/blog/registration" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
             Read more
             <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
@@ -77,7 +77,7 @@
                   </span>
           <span class="text-sm">May 3, 2023</span>
         </div>
-        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog/importing-profile.html">Importing profile</a></h2>
+        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog/importing-profile">Importing profile</a></h2>
         <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
           Are you looking to quickly populate your Skillbased profile with your LinkedIn information? Here's a step-by-step guide on how to do it: <br>
           Log into LinkedIn and view your profile.
@@ -89,7 +89,7 @@
                           Johannes Veem
                       </span>
           </div>
-          <a href="/blog/importing-profile.html" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+          <a href="/blog/importing-profile" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
             Read more
             <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
@@ -107,7 +107,7 @@
                   </span>
           <span class="text-sm">May 3, 2023</span>
         </div>
-        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog/work-experience.html">Work Experience</a></h2>
+        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="/blog/work-experience">Work Experience</a></h2>
         <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
           When registering your work experiences and projects on Skillbased, it's important to be as detailed as possible and keep them updated. Here's what you need to know:
         </p>
@@ -118,7 +118,7 @@
                           Kristian Veem
                       </span>
           </div>
-          <a href="/blog/work-experience.html" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+          <a href="/blog/work-experience" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
             Read more
             <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
