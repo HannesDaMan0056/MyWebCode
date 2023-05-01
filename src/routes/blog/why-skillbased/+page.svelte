@@ -42,7 +42,7 @@
     In conclusion, the Skillbased Consulting approach is based on finding and matching the right skill sets and competences to meet the needs of our clients successfully. Whether you're a
     business or a consultant, our goal is to deliver the most relevant skills based on your needs and requirements to help you navigate the ever-changing business landscape.
   </p>
-  <figure><img src="/assets/images/PortBox-My-Agency/men-shake-hands-at-business-meeting-9A3QNL5.jpg" alt="">
+  <!--<figure><img src="/assets/images/PortBox-My-Agency/men-shake-hands-at-business-meeting-9A3QNL5.jpg" alt="">
     <figcaption></figcaption>
-  </figure>
+  </figure>-->
 </Post>

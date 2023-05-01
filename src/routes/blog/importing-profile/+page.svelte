@@ -22,9 +22,9 @@
     </li>
     <li>
       Select 'Upload LinkedIn PDF Profile'.
-      <figure><img src="/assets/images/Skillbased/importing-profile.png" alt="registration">
+      <!--<figure><img src="/assets/images/Skillbased/importing-profile.png" alt="registration">
         <figcaption></figcaption>
-      </figure>
+      </figure>-->
     </li>
     <li>
       Look for and select the LinkedIn profile you just saved.
