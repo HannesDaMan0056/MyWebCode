@@ -1,3 +1,8 @@
+<script>
+  import kristian from "$lib/images/kristian.jpg?webp&h=200";
+  import samuel from "$lib/images/samuel.jpg?webp&h=200";
+  import johannes from "$lib/images/hannes.png?webp&h=200";
+</script>
 <section class="bg-white dark:bg-gray-900">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
@@ -24,7 +29,7 @@
         </p>
         <div class="flex justify-between items-center">
           <div class="flex items-center space-x-4">
-            <img class="w-7 h-7 rounded-full" src="/images/ProfilePictures/kristian.jpg" alt="Kristian Veem">
+            <img class="w-7 h-7 rounded-full" src={kristian} alt="Kristian Veem">
             <span class="font-medium dark:text-white">
                           Kristian Veem
                       </span>
@@ -54,7 +59,7 @@
         </p>
         <div class="flex justify-between items-center">
           <div class="flex items-center space-x-4">
-            <img class="w-7 h-7 rounded-full" src="/images/ProfilePictures/samuel.jpg" alt="Samuel Veem">
+            <img class="w-7 h-7 rounded-full" src={samuel} alt="Samuel Veem">
             <span class="font-medium dark:text-white">
                           Samuel Veem
                       </span>
@@ -84,7 +89,7 @@
         </p>
         <div class="flex justify-between items-center">
           <div class="flex items-center space-x-4">
-            <img class="w-7 h-7 rounded-full" src="/images/ProfilePictures/hannes.png" alt="Johannes Veem">
+            <img class="w-7 h-7 rounded-full" src={johannes} alt="Johannes Veem">
             <span class="font-medium dark:text-white">
                           Johannes Veem
                       </span>
@@ -113,7 +118,7 @@
         </p>
         <div class="flex justify-between items-center">
           <div class="flex items-center space-x-4">
-            <img class="w-7 h-7 rounded-full" src="/images/ProfilePictures/kristian.jpg" alt="Kristian Veem">
+            <img class="w-7 h-7 rounded-full" src={kristian} alt="Kristian Veem">
             <span class="font-medium dark:text-white">
                           Kristian Veem
                       </span>
