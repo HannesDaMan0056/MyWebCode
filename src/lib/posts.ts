@@ -40,7 +40,8 @@ export const johannes: Author = {
   image: johannesImage,
 };
 
-export type PostSlug = "why-skillbased" | "registration" | "importing-profile" | "work-experience";
+export type PostSlug = "why-skillbased" | "registration" | "importing-profile"
+  | "work-experience" | "skills-tagging";
 export const posts: Record<PostSlug, Post> = {
   "why-skillbased": {
     title: "Why Skillbased?",
@@ -78,5 +79,13 @@ Here's a step-by-step guide on how to do it: <br>
     type: "tutorial",
     slug: "/blog/work-experience",
     summary: `When registering your work experiences and projects on Skillbased, it's important to be as detailed as possible and keep them updated. Here's what you need to know:`,
+  },
+  "skills-tagging": {
+    title: "Skills Tagging",
+    author: johannes,
+    pubdate: "2023-05-02",
+    type: "tutorial",
+    slug: "/blog/skills-tagging",
+    summary: `By connecting your skills to each job and project you have worked on, you can showcase how your competence has developed and contributed to your professional growth. Here's how you can add and connect skills to each job or project on Skillbased`,
   },
 };
