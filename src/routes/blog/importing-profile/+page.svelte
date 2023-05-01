@@ -1,6 +1,7 @@
 <script>
   import Post from "$lib/posts/Post.svelte";
   import { posts } from "$lib/posts";
+  import uploadProfile from "$lib/images/importing-profile.png?webp&quality=100"
 </script>
 
 <Post post={posts["importing-profile"]}>
@@ -22,9 +23,9 @@
     </li>
     <li>
       Select 'Upload LinkedIn PDF Profile'.
-      <!--<figure><img src="/assets/images/Skillbased/importing-profile.png" alt="registration">
+      <figure><img src={uploadProfile} alt="registration">
         <figcaption></figcaption>
-      </figure>-->
+      </figure>
     </li>
     <li>
       Look for and select the LinkedIn profile you just saved.

@@ -1,6 +1,7 @@
 <script>
   import Post from "$lib/posts/Post.svelte";
   import { posts } from "$lib/posts";
+  import registration from "$lib/images/registration.png?format=webp&quality=100&h=500"
 </script>
 
 <Post post={posts["registration"]}>
@@ -13,9 +14,9 @@
     </li>
     <li>
       Click on "Consultants" in the dropdown menu that appears.
-      <!--<figure><img src="/assets/images/Skillbased/registration.png" alt="registration">
+      <figure><img src={registration} alt="registration">
         <figcaption></figcaption>
-      </figure>-->
+      </figure>
     </li>
     <li>
       Fill in your first name, last name, email address, and create a strong password. Read and agree to the User Agreement & Privacy Policy.
