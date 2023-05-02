@@ -4,6 +4,6 @@ services:
     #image: 'docker.proitdesign.com/candybase/candybase-homepage:${BREINS_VERSION}'
     container_name: candybase-homepage
     build:
-      context: Definity_MultipurposeOne-MultiPageTemplate/Definity
+      context: .
     ports:
-    - 80:80
+    - 8004:80
