@@ -1,7 +1,4 @@
 <script>
-  import kristian from "$lib/images/kristian.jpg?webp&h=200";
-  import samuel from "$lib/images/samuel.jpg?webp&h=200";
-  import johannes from "$lib/images/hannes.png?webp&h=200";
   import { posts } from "$lib/posts";
   import PostCard from "$lib/posts/PostCard.svelte";
 </script>

@@ -23,6 +23,7 @@ COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/home
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/senior-consultant.html /usr/share/nginx/html/senior-consultant.html
 COPY --chown=$USER_NAME --from=builder /workspace/app/build/blog /usr/share/nginx/html/blog
 COPY --chown=$USER_NAME --from=builder /workspace/app/build/_app /usr/share/nginx/html/_app
+COPY --chown=$USER_NAME --from=builder /workspace/app/build/blog.html /usr/share/nginx/html/blog/index.html
 
 RUN chmod 755 -R /usr/share/nginx/html
 
