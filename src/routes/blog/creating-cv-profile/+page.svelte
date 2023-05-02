@@ -5,7 +5,7 @@
   import cvProfileButtons from "$lib/images/cv-profile-buttons.png?webp";
 </script>
 
-<Post post={posts["importing-profile"]}>
+<Post post={posts["creating-cv-profile"]}>
   <p>
     With Skillbased, you can easily generate multiple tailored CV profiles based on the information you have entered about your career history. It is a powerful tool that can help you create
     customized profiles suited for specific jobs you are interested in applying to.

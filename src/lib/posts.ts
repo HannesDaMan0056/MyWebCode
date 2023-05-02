@@ -114,7 +114,7 @@ Here's a step-by-step guide on how to do it: <br>
     summary: `With Skillbased, you can easily generate multiple tailored CV profiles based on the information you have entered about your career history. It is a powerful tool that can help you create customized profiles suited for specific jobs you are interested in applying to.`,
   },
   "controlling-distribution": {
-    title: "Optimizing your profile",
+    title: "Controlling distribution",
     author: johannes,
     pubdate: "2023-05-02",
     type: "tutorial",
