@@ -1,7 +1,7 @@
 <script>
   import Post from "$lib/posts/Post.svelte";
   import { posts } from "$lib/posts";
-  import uploadProfile from "$lib/images/importing-profile.png?webp&quality=100"
+  import uploadProfile from "$lib/images/importing-profile.png?webp&quality=100";
 </script>
 
 <Post post={posts["importing-profile"]}>
@@ -23,7 +23,7 @@
     </li>
     <li>
       Select 'Upload LinkedIn PDF Profile'.
-      <figure><img src={uploadProfile} alt="registration">
+      <figure><img src={uploadProfile} alt="upload profile button">
         <figcaption></figcaption>
       </figure>
     </li>
