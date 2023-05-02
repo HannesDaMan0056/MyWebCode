@@ -50,9 +50,9 @@
 }
 
 /* ---- Navigation ---- */
-@media (max-width: 1260px) {
+@media (max-width: 1259.9px) {
   .navbar .navbar-header {
-    width: auto;
+    width: 100%;
     margin-left: 0;
   }
   .navbar .navbar-header .navbar-brand {
@@ -99,7 +99,8 @@
     margin-left: -16px;
   }
   .navbar .navbar-collapse .navbar-nav .cart-nav .cart-dropdown {
-    min-width: 100%;
+    /*min-width: 100%;*/
+    width: 100%;
   }
   .navbar .navbar-right {
     margin-right: 0;

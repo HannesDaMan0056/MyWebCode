@@ -21,7 +21,7 @@
     background: #ececec50;
 }
 
-/* Grid */
+/* ========= Grid ================= */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -65,64 +65,13 @@
   background: url(../images/Marcin.jpg) 0 0;
 }
 
-
-
-/*linear-gradient(30deg,#24252d00 40%,#02040586 60%)
- linear-gradient(30deg,#01041b88 0%,#01041b88 100%),
-radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
-.sm-poly1-bg {
-  background-image: linear-gradient(30deg,#24252d00 40%,#02040586 60%), url("../../assets/images/AbstractPolygonBackgrounds/JPG/02.jpg");
-  background-size: cover;
-  background-position: 50%;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-}
-
-
-.sm-erickssons-bg {
-  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
-  background-size: cover;
-  background-position: 100% 0%;
-  background-attachment: fixed;
-}
-
-
-@media (max-width: 1260px) {
-  .sm-erickssons-bg-md {
-    background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
-    background-size: cover;
-    background-position: 0% 20%;
-    background-attachment: fixed;
-  }
-  }
-
- /* @media (max-hight: 500px) {
-    .sm-erickssons-bg-md {
-      background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
-      background-size: cover;
-      background-position: 50% 50%;
-      background-attachment: fixed;
-    }
-    }*/
-
-.sm-city-bg {
-  background-image: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
-  background-size: cover;
-  background-position: 0% 100%;
-  background-attachment: fixed;
-}
-
-.sm-city-bg .subheading {
-  color: rgb(255, 255, 255);
-}
-
-.page-title.sm-city-bg h1 {
-  margin-top: 0;
-  margin-bottom: 0px;
-  letter-spacing: 5px;
+/* ========= Navigation page heighlighter  ================= */
+.navbar .navbar-nav li.selected a,.navbar .navbar-nav li a.selected {
   color: #ffffff;
-  font-size: 23px;
-  font-weight: 500;
+}
+
+.navbar-inverse .navbar-nav.nav-grey li a {
+  color: #454545;
 }
 
 .white-header {
@@ -141,12 +90,116 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
           transition: background 0.3s;
 }
 
-/* ---- 17.1 CTA - City - Link ---- */
+
+/* ========= Contact us ================= */
+.contact-3 .from-header p {
+  width: 90%;
+  margin: auto;
+  line-height: 1em;
+  margin-bottom: 10px;  
+}
+
+
+/* ========= Bakgrounds ================= */
+.sm-poly1-bg {
+  background-image: linear-gradient(30deg,#24252d00 40%,#02040586 60%), url("../../assets/images/AbstractPolygonBackgrounds/JPG/02.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+/*linear-gradient(30deg,#24252d00 40%,#02040586 60%)
+ linear-gradient(30deg,#01041b88 0%,#01041b88 100%),
+radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
+
+.sm-erickssons-bg {
+  background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-size: cover;
+  background-position: 100% 0%;
+  background-attachment: fixed ;
+  background-repeat: no-repeat;
+}
+
+.sm-erickssons-bg-grey {
+  background-image: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2cd8 100%),url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-size: cover;
+  background-position: 100% 0%;
+  background-attachment: fixed ;
+  background-repeat: no-repeat;
+}
+
+.hero-log-reg {
+  display: none;
+}
+
+
+@media (max-width: 1259.9px) {
+  .sm-erickssons-bg-md {
+    /*linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%)*/
+    background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2cd8 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+    background-size: cover;
+    background-position: 0% 20%;
+    background-attachment: fixed;
+  }
+  .hero-log-reg-mob {
+    display: inline;
+  }
+  }
+
+ /* @media (max-hight: 500px) {
+    .sm-erickssons-bg-md {
+      background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+      background-size: cover;
+      background-position: 50% 50%;
+      background-attachment: fixed;
+    }
+    }*/
+
+.sm-city-bg {
+  /* Old linear gradient for client/consultant page title: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%)*/
+  background-image: linear-gradient(30deg,#1c1e2c 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-size: cover;
+  background-position: 50% 30%;
+  background-attachment: fixed;
+}
+
+.sm-city-bg .subheading {
+  color: rgb(255, 255, 255);
+}
+
+.page-title.sm-city-bg h1 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+
+
+/* ======== 17.1 CTA - City - Link ======== */
 .cta-city-link {
-  background-image: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-image: linear-gradient(30deg,#1c1e2c 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
   background-position: 0% 50%;
   background-attachment: fixed;
+}
+
+.cta-city-link-gold {
+  background-image: linear-gradient(30deg,#000000 0%,#000000 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  background-attachment: fixed;
+}
+
+.cta-city-link-gold h3 {
+  background: linear-gradient(to right, rgb(144 96 38) 30%, rgb(247 239 157) 50%, rgb(144 96 38) 70%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.cta-city-link-gold .btn {
+  background: linear-gradient(to right, rgb(144 96 38) 0%, rgb(247 239 157) 50%, rgb(144 96 38) 100%);
 }
 
 .cta-city-link .bg-overlay {
@@ -155,8 +208,8 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 }
 
 .cta-city-link .cta-wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -169,7 +222,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 
 .cta-city-link .cta-wrapper h3 {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   letter-spacing: 5px;
   color: #ffffff;
   font-size: 23px;
@@ -214,6 +267,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 
 
 /* md */
+/*
 @media (max-width: 992px) {
   .portfolio-layout .col-md-6.pfol-1{
     padding: 0px 0px 0px 15px;
@@ -222,7 +276,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
     padding: 0px 15px 0px 15px;
   }
 }
-
+*/
 
 /* sm */
 @media (max-width: 670px)  {
@@ -239,7 +293,6 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
     max-width: 670px;
    }
 }
-
 
 
 /* xs */

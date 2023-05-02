@@ -288,7 +288,7 @@ hr {
 
 /* ---- White Space ---- */
 .ws-s {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .ws-m {
@@ -2025,7 +2025,7 @@ fieldset[disabled] .form-control:hover {
 
 .pt-large {
   padding-top: 140px;
-  padding-bottom: 140px;
+  padding-bottom: 70px;
 }
 
 /* ---- 4.5 Header/Page Title Parallax ---- */
@@ -2561,7 +2561,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .navbar .navbar-header {
-  width: 34%;
+  width: 25%;
   margin-top: 6px;
 }
 
@@ -2576,8 +2576,8 @@ fieldset[disabled] .form-control:hover {
 
 .navbar .navbar-nav li a {
   text-transform: uppercase;
-  font-size: 0.8em;
-  font-weight: 400;
+  font-size: 0.9em;
+  font-weight: 500;
   letter-spacing: 2px;
   color: #999;
   -webkit-transition: color 0.5s;
@@ -3712,7 +3712,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-tabs .tabs-list .active a {
-  border-left: 10px solid #111111;
+  border-left: 10px solid #f4f4f4;
   background: #f4f4f4;
 }
 
@@ -5979,7 +5979,7 @@ fieldset[disabled] .form-control:hover {
 
 .project-item {
   display: block;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -6332,8 +6332,8 @@ fieldset[disabled] .form-control:hover {
 }
 
 .cta-link .cta-wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -6507,7 +6507,8 @@ fieldset[disabled] .form-control:hover {
 }
 
 .blog-columns .blog-post .bp-content, .blog-classic .blog-post .bp-content {
-  padding: 40px 50px 50px 50px;
+  padding: 20px 50px 10px 50px;
+  /*padding: 40px 50px 50px 50px;*/
 }
 
 .blog-columns .blog-post .bp-content .post-meta .post-date i,
@@ -6549,6 +6550,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .blog-columns .blog-post .bp-content .post-meta .post-comments, .blog-classic .blog-post .bp-content .post-meta .post-comments {
+  /*float: center;*/
   float: right;
 }
 
@@ -7127,13 +7129,13 @@ form .input-error-2:focus {
 
 /* ---- 19.3 Contact Layout 3 ---- */
 .contact-3 {
-  background: #f4f4f4;
+  background: #f8f8f8;
 }
 
 .contact-3 .form-wrapper {
-  margin-top: 160px;
-  margin-bottom: 160px;
-  padding: 70px 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 40px 50px 20px;
   border-top: 1px solid #f8f8f8;
   background: #fff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
@@ -7146,11 +7148,11 @@ form .input-error-2:focus {
 
 .contact-3 .form-wrapper .from-header h2 {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .contact-3 .form-wrapper p {
-  color: #999;
+  color: #000;
   margin: 0%;
 }
 
@@ -7163,7 +7165,7 @@ form .input-error-2:focus {
 .contact-3 .form-wrapper input[type="submit"] {
   display: block;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .contact-3 .form-wrapper .form-minimal input[type="text"],
@@ -7749,7 +7751,7 @@ form .input-error-2:focus {
   margin: 0 auto;
   font-size: 40px;
   text-align: center;
-  color: rgba(235, 235, 235, 0.5);
+  color: rgba(235, 235, 235);
 }
 
 .scroller:focus {
@@ -8320,7 +8322,7 @@ form .input-error-2:focus {
 
 .agency2-hero .large-header .demo-canvas {
   max-width: 100%;
-
+  /*height: 80vh; */
 }
 
 .agency2-hero .hero-content-wrapper {

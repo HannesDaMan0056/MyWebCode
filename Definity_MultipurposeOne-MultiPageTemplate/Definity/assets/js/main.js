@@ -67,10 +67,13 @@
                 $('nav').addClass('navbar-small', 300);
             } else {
                 $('nav:not(.mobile-nav)').addClass('navbar-trans', 300);
-                $('nav').removeClass('navbar-small', 300);
+                //$('nav').removeClass('navbar-small', 300);
 
                 if ($('nav').hasClass('trans-helper')) {
                     $('nav:not(.mobile-nav)').addClass('navbar-trans-dark');
+                }
+                if ($('nav').hasClass('fixed-nav')) {
+                    $('nav:not(.mobile-nav)').removeClass('navbar-trans');
                 }
                 if ($('nav').hasClass('blue-helper')) {
                     $('nav:not(.mobile-nav)').removeClass('navbar-trans', 300);
