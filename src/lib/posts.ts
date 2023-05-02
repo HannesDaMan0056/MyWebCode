@@ -106,7 +106,7 @@ Here's a step-by-step guide on how to do it: <br>
     summary: `Optimizing your profile on Skillbased is important to increase your visibility and chances of getting matched with relevant assignments.`,
   },
   "creating-cv-profile": {
-    title: "Optimizing your profile",
+    title: "Creating CV Profile",
     author: kristian,
     pubdate: "2023-05-02",
     type: "tutorial",
