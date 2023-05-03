@@ -1,10 +1,22 @@
 <script lang="ts">
   import type { Post } from "../posts";
+  import { posts } from "../posts";
+  import PostCard from "./PostCard.svelte";
 
   export let post: Post;
+
+  let nextPost: Post;
+  let nextNextPost: Post;
+
+  $: if (post) {
+    const keys = Object.keys(posts);
+    const index = keys.indexOf(post.slug);
+    nextPost = posts[keys[(index + 1) % keys.length]];
+    nextNextPost = posts[keys[(index + 2) % keys.length]];
+  }
 </script>
 
-<main class="py-8 lg:pt-16 bg-white dark:bg-gray-900">
+<main class="pt-8 lg:pt-16 bg-white dark:bg-gray-900">
   <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
     <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
       <header class="mb-4 lg:mb-6 not-format">
@@ -26,3 +38,17 @@
     </article>
   </div>
 </main>
+
+{#if nextPost && nextNextPost}
+  <section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
+      <div class="mx-auto max-w-screen-sm text-center mb-8">
+        <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Related Articles</h2>
+      </div>
+      <div class="grid gap-8 lg:grid-cols-2">
+        <PostCard post={nextPost} />
+        <PostCard post={nextNextPost} />
+      </div>
+    </div>
+  </section>
+{/if}

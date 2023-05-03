@@ -9,10 +9,10 @@ const config = {
   },
 
   plugins: [
-    require('flowbite/plugin'),
-    require('flowbite-typography'),
+    require("flowbite/plugin"),
+    require("flowbite-typography"),
   ],
-  darkMode: 'class',
+  darkMode: "class",
 };
 
 module.exports = config;
