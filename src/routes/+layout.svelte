@@ -1,6 +1,6 @@
 <script>
   import { Navbar, NavBrand, NavHamburger, NavUl, NavLi, Button } from 'flowbite-svelte';
-  let navClass = 'dark bg-black border-gray-200 px-4 lg:px-6 dark:bg-gray-800';
+  let navClass = 'bg-white dark:bg-black border-gray-200 px-4 lg:px-6 dark:bg-gray-800';
   let navDivClass = 'flex flex-wrap justify-between items-center mx-auto max-w-screen-xl';
   const breadcrumb_title = 'Headers';
   const title = 'Header';
@@ -13,7 +13,7 @@
   import logo from "$lib/images/black-logo.png";
 </script>
 
-<header>
+<header class="dark">
   <Navbar let:hidden let:toggle fluid={false} {navClass} {navDivClass}>
     <NavBrand href="/" data-sveltekit-preload-data="off" >
         <img src={logo} class="mr-3 h-14" alt="Skillbased Logo" />
