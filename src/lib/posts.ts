@@ -72,14 +72,12 @@ Here's a simple guide on how to create an account through registration: <br>
 Go to the Skillbased website and hover over "Register" or "Sign up" in the top navigation menu."`,
   },
   "importing-profile": {
-    title: "Importing Profile",
+    title: "Importing LinkedIn profile",
     author: johannes,
     pubdate: "2023-05-02",
     type: "tutorial",
     slug: "importing-profile",
-    summary: `Are you looking to quickly populate your Skillbased profile with your LinkedIn information? 
-Here's a step-by-step guide on how to do it: <br>
-          Log into LinkedIn and view your profile.`,
+    summary: `Are you interested in enriching your Skillbased profile with your LinkedIn information? We'll guide you through the process, offering two options for profile import. In this step-by-step guide, we'll explain both methods and why having access to your complete LinkedIn data can significantly benefit your Skillbased profile.`,
   },
   "work-experience": {
     title: "Work Experience",
