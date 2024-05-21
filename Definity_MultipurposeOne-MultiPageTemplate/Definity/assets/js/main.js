@@ -814,7 +814,7 @@ $(function() {
     var value = Object.fromEntries(data.entries());
     $.ajax({
         type: "POST",
-        url: "http://candybase.localhost/api/leads",
+        url: "/api/leads",
         data: JSON.stringify(value),
         success: function(_) {
           e.target.reset();
