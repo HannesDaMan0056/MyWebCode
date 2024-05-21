@@ -814,7 +814,7 @@ $(function() {
     var value = Object.fromEntries(data.entries());
     $.ajax({
         type: "POST",
-        url: "/api/leads",
+        url: "http://candybase.localhost/api/leads",
         data: JSON.stringify(value),
         success: function(_) {
           e.target.reset();
@@ -822,7 +822,12 @@ $(function() {
             "<div class='alert alert-success alert-dismissible wow fadeInUp' role='alert'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>Your message has been sent.</div>",
           );
         },
-        dataType: "json",
+        error: function(_) {
+          $(".ajax-message").html(
+            "<div class='alert alert-danger alert-dismissible wow fadeInUp' role='alert'><button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>There was an error sending your message.</div>",
+          );
+        },
+        // dataType: "json",
         contentType: "application/json",
       },
     );
