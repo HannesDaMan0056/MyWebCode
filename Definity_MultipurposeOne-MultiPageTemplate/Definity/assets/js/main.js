@@ -50,6 +50,33 @@
 
   });
 
+// script.js CHANGED
+document.addEventListener('DOMContentLoaded', function() {
+  const navbar = document.querySelector('.navbar');
+
+  if (navbar) {
+      // Function to adjust navbar position based on scroll
+      function adjustNavbarPosition() {
+          const scrollPosition = window.scrollY;
+
+          // Check if the page is scrolled more than 20px
+          if (scrollPosition > 20) {
+              navbar.classList.add('navbar-scroll');
+          } else {
+              navbar.classList.remove('navbar-scroll');
+          }
+      }
+
+      // Event listener for scroll event
+      window.addEventListener('scroll', adjustNavbarPosition);
+
+      // Initial adjustment when the page loads
+      adjustNavbarPosition();
+  } else {
+      console.error('Navbar element not found');
+  }
+});
+
 
   /* --------------------------------------------------
       Navigation | Navbar
@@ -814,7 +841,7 @@ $(function() {
     var value = Object.fromEntries(data.entries());
     $.ajax({
         type: "POST",
-        url: "/api/leads",
+        url: "http://candybase.localhost/api/leads",
         data: JSON.stringify(value),
         success: function(_) {
           e.target.reset();

@@ -1,24 +1,24 @@
 .nomargin {
-    margin: 0;
-    }
+  margin: 0;
+}
 
 .disblock {
-    display: block;
+  display: block;
 }
 
 .dislinblock {
-    display: inline-block;
+  display: inline-block;
 }
 
 .dislin {
-    display: inline;
+  display: inline;
 }
 
 .disnone {
   display: none;
 }
 .cornback {
-    background: #ececec50;
+  background: #ececec50;
 }
 
 /* ========= Grid ================= */
@@ -26,7 +26,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 15px;
-  
+
 }
 
 .grid-s-item {
@@ -54,19 +54,11 @@
   margin-right: 25px;
   margin-left: 25px;
 }
-.Marcin {
-  height: 440;
-  width: 360;
-}
 
-.Johannes {
-  height: 360;
-  width: 440;
-  background: url(../images/Marcin.jpg) 0 0;
-}
 
 /* ========= Navigation page heighlighter  ================= */
-.navbar .navbar-nav li.selected a,.navbar .navbar-nav li a.selected {
+.navbar .navbar-nav li.selected a,
+.navbar .navbar-nav li a.selected {
   color: #ffffff;
 }
 
@@ -87,7 +79,7 @@
   border-bottom: none;
   background: #012136;
   -webkit-transition: background 0.3s;
-          transition: background 0.3s;
+  transition: background 0.3s;
 }
 
 
@@ -96,18 +88,19 @@
   width: 90%;
   margin: auto;
   line-height: 1em;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
 
 /* ========= Bakgrounds ================= */
 .sm-poly1-bg {
-  background-image: linear-gradient(30deg,#24252d00 40%,#02040586 60%), url("../../assets/images/AbstractPolygonBackgrounds/JPG/02.jpg");
+  background-image: linear-gradient(30deg, #24252d00 40%, #02040586 60%), url("../../assets/images/AbstractPolygonBackgrounds/JPG/02.jpg");
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
   background-blend-mode: multiply;
 }
+
 /*linear-gradient(30deg,#24252d00 40%,#02040586 60%)
  linear-gradient(30deg,#01041b88 0%,#01041b88 100%),
 radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
@@ -116,15 +109,15 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
   background-image: url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
   background-position: 100% 0%;
-  background-attachment: fixed ;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
 .sm-erickssons-bg-grey {
-  background-image: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2cd8 100%),url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-image: linear-gradient(30deg, #1c1e2c88 0%, #1c1e2cd8 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
   background-position: 100% 0%;
-  background-attachment: fixed ;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
@@ -136,17 +129,18 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 @media (max-width: 1259.9px) {
   .sm-erickssons-bg-md {
     /*linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%)*/
-    background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2cd8 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+    background-image: linear-gradient(30deg, #1c1e2c88 0%, #1c1e2cd8 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
     background-size: cover;
     background-position: 0% 20%;
     background-attachment: fixed;
   }
+
   .hero-log-reg-mob {
     display: inline;
   }
-  }
+}
 
- /* @media (max-hight: 500px) {
+/* @media (max-hight: 500px) {
     .sm-erickssons-bg-md {
       background-image:  linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
       background-size: cover;
@@ -157,7 +151,7 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 
 .sm-city-bg {
   /* Old linear gradient for client/consultant page title: linear-gradient(30deg,#1c1e2c88 0%,#1c1e2c88 100%)*/
-  background-image: linear-gradient(30deg,#1c1e2c 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-image: linear-gradient(30deg, #1c1e2c 0%, #1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
   background-position: 50% 30%;
   background-attachment: fixed;
@@ -180,14 +174,14 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 
 /* ======== 17.1 CTA - City - Link ======== */
 .cta-city-link {
-  background-image: linear-gradient(30deg,#1c1e2c 0%,#1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-image: linear-gradient(30deg, #1c1e2c 0%, #1c1e2c88 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
   background-position: 0% 50%;
   background-attachment: fixed;
 }
 
 .cta-city-link-gold {
-  background-image: linear-gradient(30deg,#000000 0%,#000000 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
+  background-image: linear-gradient(30deg, #000000 0%, #000000 100%), url("../../assets/images/JohanTöpel/Second/IMG_1279.jpg");
   background-size: cover;
   background-position: 0% 50%;
   background-attachment: fixed;
@@ -195,17 +189,15 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 
 .cta-city-link-gold h3 {
   background: linear-gradient(to right, rgb(144 96 38) 30%, rgb(247 239 157) 50%, rgb(144 96 38) 70%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
+
 .cta-city-link-gold .btn {
   background: linear-gradient(to right, rgb(144 96 38) 0%, rgb(247 239 157) 50%, rgb(144 96 38) 100%);
 }
 
-.cta-city-link .bg-overlay {
-  width: 100%;
-  background: rgb(0 0 0 / 0%);
-}
+
 
 .cta-city-link .cta-wrapper {
   padding-top: 50px;
@@ -213,7 +205,8 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
   text-align: center;
 }
 
-.cta-city-link .cta-wrapper .page-title .subheading, .page-title .cta-city-link .cta-wrapper .subheading {
+.cta-city-link .cta-wrapper .page-title .subheading,
+.page-title .cta-city-link .cta-wrapper .subheading {
   margin-top: 0;
   margin-bottom: 50px;
   letter-spacing: 8px;
@@ -230,7 +223,8 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 }
 
 /* .team-4col .t-item .t-et == Who are you section */
-.team-4col .t-item .t-et, .team-4col .t-item h2 {
+.team-4col .t-item .t-et,
+.team-4col .t-item h2 {
   color: #111;
   position: relative;
   top: 90px;
@@ -252,6 +246,10 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 }
 
 
+.t-role {
+  height: 50px
+}
+
 /*    Scaling Properties  @media(max-width)  */
 
 /* lg */
@@ -259,11 +257,276 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
   .ft-two-left-lg {
     padding: 0px 15px 0px 100px;
   }
+
   .ft-two-right-lg {
     padding: 0px 100px 0px 15px;
   }
+  
 
 }
+
+
+.t-image {
+  height: 375px;
+}
+aside {
+  overflow-x: hidden;
+  padding-right: 0;
+  width: 100%;
+}
+
+/* ------------------------NY DESIGN-------------------------------- */
+@media (max-width: 991px) {
+  .freelancer-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center horizontally */
+  }
+ 
+  .freelancer-about-content {
+    text-align: left;
+    /* Align text content left */
+    
+    
+  }
+
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    /* Center image horizontally */
+    align-items: center;
+    /* Center image vertically */
+    margin-top: 40px;
+    /* Adjust margin as needed */
+  }
+
+  .ft-steps-numbers .ft-item {
+    margin-bottom: 15px;
+    padding-left: 40px;
+  }
+  .ft-steps-numbers .ft-item .span {
+  margin-top: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .freelancer-about-content {
+    max-width: 450px;
+    
+}
+
+    .gray-bg .freelancer-about .col-lg-offset-2.col-lg-4.col-md-6.mb-sm-50.img-wrapper {
+        width: 325px; /* Adjust the value as needed */
+    }
+
+  
+
+    .gray-bg .freelancer-about .col-lg-offset-2.col-lg-4.col-md-6.mb-sm-50.img-wrapper .t-item .t-info {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .gray-bg .freelancer-about .col-lg-offset-2.col-lg-4.col-md-6.mb-sm-50.img-wrapper .t-item .t-info h4.t-name {
+        font-size: 1.2em; /* Adjust the value as needed */
+    }
+
+    .gray-bg .freelancer-about .col-lg-offset-2.col-lg-4.col-md-6.mb-sm-50.img-wrapper .t-item .t-info span.t-role {
+        font-size: 1em; /* Adjust the value as needed */
+    }
+
+    
+    .gray-bg .freelancer-about .col-lg-offset-2.col-lg-4.col-md-6.mb-sm-50.img-wrapper .t-item {
+      max-height: 500px;
+    }
+}
+
+
+/*---------------------------------------------*/
+
+@media (max-width: 1000px) {
+  .gray-bg #services .col-lg-4, 
+  .gray-bg #services .col-md-6 {
+    max-width: 375px;
+    margin: auto; /* Center the items */
+    padding-bottom: 20px;
+  }
+  .gray-bg #services .section {
+    padding-bottom: 0; 
+  }
+ 
+  
+  /* Center the icon spans */
+  .gray-bg #services .ft-item span.et-traget,
+  .gray-bg #services .ft-item span.et-briefcase,
+  .gray-bg #services .ft-item span.fa {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+     /* Add some margin if needed */
+  }
+  .gray-bg #services .ft-item h4 {
+    margin-top: 30px;
+    text-align: center; /* Center text */
+  }
+
+}
+
+
+@media (max-width: 700px) {
+  .team-3col .col-100 {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .section {
+   padding-left: 0;
+   padding-right: 0;   
+  
+  }
+  .p-info {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .project-testimonial{
+  margin: 10px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1260px) {
+  .pfolio-single .container {
+      width: 100%;
+      
+  }
+}
+ 
+
+
+
+.project-testimonial {
+  max-width: 500px;
+  margin: 0 auto; 
+  display: block;
+}
+
+.ft-item {
+  height: 400px;
+}
+
+
+.main-section {
+  background-color: white;
+  /* Example background color */
+  padding: 20px;
+}
+
+.container2 {
+  max-width: 1200px;
+  /* Limits maximum width */
+  margin: 0 auto;
+  /* Centers the container */
+}
+
+.item-1 {
+  padding: 20px;
+}
+
+.item-1 img {
+  max-width: 100%;  
+  height: auto;
+  width: 100%; 
+  max-height: 500px;
+}
+
+@media (max-width: 767px) {
+  .custom-order-sm-2 {
+    order: 2;
+  }
+
+  .custom-order-sm-1 {
+    order: 1;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-1 img {
+    max-width: 400px;
+  }
+}
+@media (max-width: 767px) {
+  
+}
+
+.pfolio-single .p-info {
+  margin-bottom: 50px;
+}
+
+
+.copyright {
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: rgba(100, 100, 100, 0.13);
+}
+
+.navbar-toggle {
+  margin-right: 0;
+}
+
+.ft-nbr {
+  margin-right: 20px;
+  padding-left: 10px;
+  font-size: 150px;
+}
+
+.transition-img {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .transition-img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .project-item p {
+    text-align: left;
+    width: 100%;
+  }
+
+  .section.pfolio-single h1 {
+    font-size: 1.1em; 
+    margin: 0;
+}
+.item-1 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+}
+
+
+
+/* --------------------------------------------------------------------*/
 
 
 /* md */
@@ -279,28 +542,29 @@ radial-gradient(closest-side at 70% 30%,#24252d 0%,#24252d 0%) */
 */
 
 /* sm */
-@media (max-width: 670px)  {
+@media (max-width: 670px) {
   .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
     font-size: 2.25em;
     font-weight: 700;
     letter-spacing: 2px;
     max-width: 670px;
-   }
-   .agency2-hero .hero-content-wrapper .hero-content .hero-secondary{
+  }
+
+  .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
     font-size: 1.0em;
     font-weight: 450;
     letter-spacing: 5px;
     max-width: 670px;
-   }
+  }
 }
 
 
 /* xs */
-@media (max-width: 450px ) { 
+@media (max-width: 450px) {
   .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
-  font-size: 1.95em;
-  font-weight: 700;
-  letter-spacing: 2px;
-  max-width: 450px;
- }
+    font-size: 1.95em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    max-width: 450px;
+  }
 }
