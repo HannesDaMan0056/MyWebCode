@@ -17,14 +17,19 @@ COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/page
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/assets /usr/share/nginx/html/assets
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/documents /usr/share/nginx/html/documents
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/index.html /usr/share/nginx/html/index.html
-COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/index.html /usr/share/nginx/html/home.html
+
+#old pages
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/client.html /usr/share/nginx/html/client.html
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/home-consultant.html /usr/share/nginx/html/home-consultant.html
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/senior-consultant.html /usr/share/nginx/html/senior-consultant.html
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/partnerships.html /usr/share/nginx/html/partnerships.html
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/business_network.html /usr/share/nginx/html/business_network.html
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/platform.html /usr/share/nginx/html/platform.html
-COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/platform.html /usr/share/nginx/html/platform.html
+
+#new pages
+COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/consultancy.html /usr/share/nginx/html/consultancy.html
+COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/consultant.html /usr/share/nginx/html/home-consultant.html
+COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/about_us.html /usr/share/nginx/html/about_us.html
 COPY --chown=$USER_NAME --from=builder /workspace/app/build/blog /usr/share/nginx/html/blog
 COPY --chown=$USER_NAME --from=builder /workspace/app/build/_app /usr/share/nginx/html/_app
 COPY --chown=$USER_NAME --from=builder /workspace/app/build/blog.html /usr/share/nginx/html/blog/index.html

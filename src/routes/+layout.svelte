@@ -30,10 +30,9 @@
       ulClass="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 uppercase"
     >
       <NavLi href="/">Home</NavLi>
-      <NavLi href="/client">Client</NavLi>
       <NavLi href="/home-consultant">Consultant</NavLi>
-      <NavLi href="senior-consultant">Senior Consultant</NavLi>
-      <NavLi href="/blog" active={true}>Blog</NavLi>
+      <NavLi href="/consultancy">Consultancy</NavLi>
+      <NavLi href="/blog" active={true}>Guide</NavLi>
     </NavUl>
   </Navbar>
 </header>
