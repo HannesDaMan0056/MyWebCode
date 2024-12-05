@@ -32,6 +32,7 @@
       <NavLi href="/">Home</NavLi>
       <NavLi href="/home-consultant">Consultant</NavLi>
       <NavLi href="/consultancy">Consultancy</NavLi>
+      <NavLi href="/about_us" active={true}>About Us</NavLi>
       <NavLi href="/blog" active={true}>Guide</NavLi>
     </NavUl>
   </Navbar>
