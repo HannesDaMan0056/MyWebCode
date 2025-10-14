@@ -16,6 +16,7 @@ COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/favi
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/pages /usr/share/nginx/html/pages
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/assets /usr/share/nginx/html/assets
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/documents /usr/share/nginx/html/documents
+COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/sso /usr/share/nginx/html/sso
 COPY --chown=$USER_NAME Definity_MultipurposeOne-MultiPageTemplate/Definity/index.html /usr/share/nginx/html/index.html
 
 #old pages
