@@ -12,7 +12,7 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir src --write src",
     "start-old": "http-server -p 8005 ./Definity_MultipurposeOne-MultiPageTemplate/Definity -o /index.html",
-    "start": "cd Definity_MultipurposeOne-MultiPageTemplate/Definity && live-server --port=8006",
+    "start": "http-server ./Definity_MultipurposeOne-MultiPageTemplate/Definity -p 8006 --ext=html",
     "update": "npx npm-check-updates -u && npm install && npm audit fix"
   },
   "devDependencies": {

@@ -3,8 +3,8 @@ Build Legacy Homepage (Html only)
 
 
 ```bash
-docker build -t docker.proitdesign.com/candybase/candybase-homepage:1.1.7 .
-docker push docker.proitdesign.com/candybase/candybase-homepage:1.1.7
+docker build -t docker.proitdesign.com/candybase/candybase-homepage:1.1.10 .
+docker push docker.proitdesign.com/candybase/candybase-homepage:1.1.10
 ```
 npm install
 npm run start
